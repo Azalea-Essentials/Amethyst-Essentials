@@ -1,0 +1,1003 @@
+{
+    "format_version": "1.17.100",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "azalea:crate",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": true,
+            "scripts": {
+                "animate": [
+                    "particle"
+                ]
+            },
+            "animations": {
+                "particle": "controller.animation.crates",
+                "crate_particle": "animation.crate_particle",
+                "crate_lava": "animation.crate_lava",
+                "crate_smoke": "animation.crate_smoke",
+                "4halo": "animation.crate_halo4",
+                "5halo": "animation.crate_halo5"
+            }
+        },
+        "component_groups": {
+            "azalea:refresh": {
+                "minecraft:movement": {
+                    "value": 0
+                }
+            },
+            "azalea:showcasename": {
+                "minecraft:nameable": {
+                    "alwaysShow": true
+                },
+                "minecraft:collision_box": {
+                    "width": 0,
+                    "height": 1.35
+                }
+            },
+            "azalea:animation0": {
+                "minecraft:variant": {
+                    "value": 0
+                }
+            },
+            "azalea:animation1": {
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "azalea:animation2": {
+                "minecraft:variant": {
+                    "value": 2
+                }
+            },
+            "azalea:ender": {
+                "minecraft:skin_id": {
+                    "value": 0
+                }
+            },
+            "azalea:normal": {
+                "minecraft:skin_id": {
+                    "value": 1
+                }
+            },
+            "azalea:custom1": {
+                "minecraft:skin_id": {
+                    "value": 2
+                }
+            },
+            "azalea:despawn": {
+                "minecraft:instant_despawn": {}
+            },
+            "delay:despawn": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": 0.1,
+                    "time_down_event": {
+                        "event": "azalea:despawn"
+                    }
+                },
+                "minecraft:mark_variant": {
+                    "value": 2
+                }
+            },
+            "timer:short": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": 0.3,
+                    "time_down_event": {
+                        "event": "azalea:event2"
+                    }
+                },
+                "minecraft:mark_variant": {
+                    "value": 2
+                }
+            },
+            "timer:spin": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": 5.625,
+                    "time_down_event": {
+                        "event": "azalea:event2"
+                    }
+                },
+                "minecraft:mark_variant": {
+                    "value": 2
+                }
+            },
+            "timer:showcase": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": 8,
+                    "time_down_event": {
+                        "event": "azalea:event2"
+                    }
+                },
+                "minecraft:mark_variant": {
+                    "value": 2
+                }
+            },
+            "azalea:cg1": {
+                "minecraft:collision_box": {
+                    "width": 0,
+                    "height": 0
+                },
+                "minecraft:environment_sensor": {
+                    "triggers": [
+                        {
+                            "filters": {
+                                "test": "is_variant",
+                                "value": 0
+                            },
+                            "event": "timer:animation0"
+                        },
+                        {
+                            "filters": {
+                                "test": "is_variant",
+                                "value": 1
+                            },
+                            "event": "timer:animation1"
+                        },
+                        {
+                            "filters": {
+                                "test": "is_variant",
+                                "value": 2
+                            },
+                            "event": "timer:animation2"
+                        }
+                    ]
+                },
+                "minecraft:mark_variant": {
+                    "value": 2
+                }
+            },
+            "azalea:cg2.5": {
+                "minecraft:mark_variant": {
+                    "value": 3
+                },
+                "minecraft:nameable": {
+                    "alwaysShow": true
+                },
+                "minecraft:collision_box": {
+                    "width": 0,
+                    "height": 1.35
+                }
+            },
+            "azalea:open": {
+                "minecraft:nameable": {
+                    "alwaysShow": false
+                },
+                "minecraft:custom_hit_test": {},
+                "minecraft:interact": {
+                    "interactions": [
+                        {
+                            "on_interact": {
+                                "event": "azalea:event1.5",
+                                "target": "self"
+                            }
+                        }
+                    ]
+                },
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": 0.7,
+                    "time_down_event": {
+                        "event": "azalea:event1"
+                    }
+                },
+                "minecraft:mark_variant": {
+                    "value": 1
+                }
+            },
+            "azalea:cg2": {
+                "minecraft:mark_variant": {
+                    "value": 4
+                },
+                "minecraft:collision_box": {
+                    "width": 0,
+                    "height": 1
+                },
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": 1.5,
+                    "time_down_event": {
+                        "event": "azalea:event3"
+                    }
+                }
+            },
+            "azalea:cg3": {
+                "minecraft:nameable": {
+                    "alwaysShow": true
+                },
+                "minecraft:collision_box": {
+                    "width": 0,
+                    "height": 1
+                },
+                "minecraft:custom_hit_test": {
+                    "hitboxes": [
+                        {
+                            "pivot": [
+                                0,
+                                0.5,
+                                0
+                            ],
+                            "width": 0.8,
+                            "height": 0.8
+                        }
+                    ]
+                },
+                "minecraft:mark_variant": {
+                    "value": 0
+                }
+            },
+            "azalea:interact": {
+                "minecraft:interact": {
+                    "interactions": [
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "any_of": [
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key1"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key2"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key3"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key4"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key4"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key5"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key6"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key6"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key7"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key7"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key8"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key8"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key9"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key9"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "value": "azalea:key10"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key10"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "event": "azalea:openevent",
+                                "target": "self"
+                            },
+                            "use_item": true,
+                            "swing": true,
+                            "interact_text": "action.interact.opencontainer"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "any_of": [
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key1"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key2"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key3"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key4"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key4"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key5"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key6"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key6"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key7"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key7"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key8"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key8"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key9"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key9"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "all_of": [
+                                                {
+                                                    "test": "has_equipment",
+                                                    "subject": "player",
+                                                    "domain": "hand",
+                                                    "operator": "!=",
+                                                    "value": "azalea:key10"
+                                                },
+                                                {
+                                                    "test": "has_tag",
+                                                    "subject": "self",
+                                                    "operator": "=",
+                                                    "value": "key10"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "event": "azalea:notkey",
+                                "target": "self"
+                            },
+                            "use_item": false,
+                            "swing": true,
+                            "interact_text": "action.interact.opencontainer"
+                        }
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:inventory": {
+                "inventory_size": 1,
+                "private": false,
+                "restrict_to_owner": false
+            },
+            "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:skin_id": {
+                "value": 0
+            },
+            "minecraft:nameable": {
+                "alwaysShow": true
+            },
+            "minecraft:fire_immune": true,
+            "minecraft:collision_box": {
+                "width": 0,
+                "height": 1
+            },
+            "minecraft:custom_hit_test": {
+                "hitboxes": [
+                    {
+                        "pivot": [
+                            0,
+                            0.5,
+                            0
+                        ],
+                        "width": 0.8,
+                        "height": 0.8
+                    }
+                ]
+            },
+            "minecraft:variant": {
+                "value": 0
+            },
+            "minecraft:movement": {
+                "value": 0
+            },
+            "minecraft:friction_modifier": {
+                "value": 300
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "deals_damage": false
+                    }
+                ]
+            }
+        },
+        "events": {
+            "azalea:clearkey": {
+                "run_command": {
+                    "command": [
+                        "tag @s remove key1",
+                        "tag @s remove key2",
+                        "tag @s remove key3",
+                        "tag @s remove key4",
+                        "tag @s remove key5",
+                        "tag @s remove key6",
+                        "tag @s remove key7",
+                        "tag @s remove key8",
+                        "tag @s remove key9",
+                        "tag @s remove key10"
+                    ],
+                    "target": "self"
+                }
+            },
+            "azalea:kill": {
+                "run_command": {
+                    "command": [
+                        "execute as @s align xz run particle minecraft:bleach ~0.8~0.1~",
+                        "execute as @s align xz run particle minecraft:bleach ~0.8~0.1~0.8",
+                        "execute as @s align xz run particle minecraft:bleach ~~0.1~0.8",
+                        "execute as @s align xz run particle minecraft:bleach ~~0.1~",
+                        "particle minecraft:crop_growth_emitter"
+                    ],
+                    "target": "self"
+                },
+                "add": {
+                    "component_groups": [
+                        "delay:despawn"
+                    ]
+                }
+            },
+            "azalea:despawn": {
+                "add": {
+                    "component_groups": [
+                        "azalea:despawn"
+                    ]
+                }
+            },
+            "azalea:event1": {
+                "add": {
+                    "component_groups": [
+                        "azalea:cg1"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "azalea:open"
+                    ]
+                },
+                "run_command": {
+                    "command": [
+                        "replaceitem entity @s slot.weapon.offhand 0 ender_chest",
+                        "tag @s add event1",
+                        "tag @s remove idle"
+                    ],
+                    "target": "self"
+                }
+            },
+            "azalea:openevent": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:interact"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:open"
+                    ]
+                },
+                "run_command": {
+                    "command": [
+                        "tag @s add opener"
+                    ],
+                    "target": "other"
+                }
+            },
+            "azalea:event1.5": {
+                "run_command": {
+                    "command": [
+                        "tellraw @s {\"rawtext\":[{\"text\":\"§cCrate is still in use!!!\"}]}",
+                        "playsound mob.creeper.say @s"
+                    ],
+                    "target": "other"
+                }
+            },
+            "azalea:notkey": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "tag @s add notkey",
+                                "playsound mob.creeper.say @s"
+                            ],
+                            "target": "other"
+                        }
+                    }
+                ]
+            },
+            "azalea:refresh": {
+                "add": {
+                    "component_groups": [
+                        "azalea:refresh"
+                    ]
+                }
+            },
+            "azalea:showcasename": {
+                "add": {
+                    "component_groups": [
+                        "azalea:showcasename"
+                    ]
+                }
+            },
+            "azalea:event2": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:showcasename"
+                    ]
+                },
+                "run_command": {
+                    "command": [
+                        "tag @s remove event1",
+                        "tag @s add event2",
+                        "replaceitem entity @s slot.weapon.offhand 0 air"
+                    ],
+                    "target": "self"
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:cg2.5"
+                    ]
+                }
+            },
+            "azalea:event2.5": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:cg1",
+                        "azalea:cg2",
+                        "azalea:cg2.5",
+                        "timer:short",
+                        "timer:spin",
+                        "timer:showcase"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:cg2"
+                    ]
+                },
+                "run_command": {
+                    "command": [
+                        "tag @s remove event2",
+                        "replaceitem entity @s slot.weapon.mainhand 0 air",
+                        "replaceitem entity @s slot.weapon.offhand 0 air"
+                    ],
+                    "target": "self"
+                }
+            },
+            "azalea:interact": {
+                "add": {
+                    "component_groups": [
+                        "azalea:interact"
+                    ]
+                }
+            },
+            "azalea:event3": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:cg1",
+                        "azalea:cg2",
+                        "azalea:cg2.5"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:cg3",
+                        "azalea:interact"
+                    ]
+                }
+            },
+            "azalea:skin0": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:normal","azalea:custom1"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:ender"
+                    ]
+                }
+            },
+            "azalea:skin1": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:ender","azalea:custom1"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:normal"
+                    ]
+                }
+            },
+            "azalea:skin2": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:ender","azalea:normal"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:custom1"
+                    ]
+                }
+            },
+            "azalea:animation0": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:animation1",
+                        "azalea:animation2"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:animation0"
+                    ]
+                }
+            },
+            "azalea:animation1": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:animation0",
+                        "azalea:animation2"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:animation1"
+                    ]
+                }
+            },
+            "azalea:animation2": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:animation0",
+                        "azalea:animation1"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "azalea:animation2"
+                    ]
+                }
+            },
+            "timer:animation0": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:cg1"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "timer:short"
+                    ]
+                }
+            },
+            "timer:animation1": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:cg1"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "timer:spin"
+                    ]
+                }
+            },
+            "timer:animation2": {
+                "remove": {
+                    "component_groups": [
+                        "azalea:cg1"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "timer:showcase"
+                    ]
+                }
+            },
+            "azalea:halo0": {
+                "run_command": {
+                    "command": [
+                        "scoreboard objectives add halo dummy",
+                        "scoreboard players set @s halo 0"
+                    ],
+                    "target": "self"
+                }
+            },
+            "azalea:halo1": {
+                "run_command": {
+                    "command": [
+                        "scoreboard objectives add halo dummy",
+                        "scoreboard players set @s halo 1"
+                    ],
+                    "target": "self"
+                }
+            },
+            "azalea:halo2": {
+                "run_command": {
+                    "command": [
+                        "scoreboard objectives add halo dummy",
+                        "scoreboard players set @s halo 2"
+                    ],
+                    "target": "self"
+                }
+            },
+            "azalea:halo3": {
+                "run_command": {
+                    "command": [
+                        "scoreboard objectives add halo dummy",
+                        "scoreboard players set @s halo 3"
+                    ],
+                    "target": "self"
+                }
+            },
+            "azalea:halo4": {
+                "run_command": {
+                    "command": [
+                        "scoreboard objectives add halo dummy",
+                        "scoreboard players set @s halo 4"
+                    ],
+                    "target": "self"
+                }
+            },
+            "azalea:halo5": {
+                "run_command": {
+                    "command": [
+                        "scoreboard objectives add halo dummy",
+                        "scoreboard players set @s halo 5"
+                    ],
+                    "target": "self"
+                }
+            }
+        }
+    }
+}
