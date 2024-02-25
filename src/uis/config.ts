@@ -1,5 +1,6 @@
 import { ActionFormData } from "@minecraft/server-ui";
 import { Player } from "@minecraft/server"
+import chatCustomizationUI from "./chatCustomizationUI";
 enum OptionTypes {
     Dropdown = 0,
     Text = 1,
@@ -20,39 +21,38 @@ type OptionData = {
     default?: number|string|boolean;
     placeholder?: string
 }
+type UI = {
+    name: string;
+    open: Function;
+}
 type OptionsObject = {
     name: string;
     icon: string;
-    options: OptionData[];
+    key: string;
+    ui: UI;
+    // options: OptionData[];
 }
 let options:OptionsObject[] = [
     {
-        name: "Chat",
+        name: "§aChat\n§7Chat Customization",
         icon: "textures/azalea_icons/Chat",
-        options: [
-            {
-                type: OptionTypes.Dropdown,
-                options: [
-                    {
-                        key: "1",
-                        display: ""
-                    }
-                ],
-                key: "ChatrankStyle",
-                label: "§bChat rank style",
-            }
-        ]
+        key: "Chat",
+        ui: chatCustomizationUI
     }
 ]
 export default {
     name: "AzaleaRewrite0.1/Config",
     open(player: Player) {
         let actionForm = new ActionFormData();
+        let selections = [];
         for(const option of options) {
+            selections.push(option);
             actionForm.button(option.name, option.icon ? option.icon : undefined);
         }
         actionForm.show(player).then(res=>{
-            
+            if(res.canceled) return;
+            let selection = selections[res.selection]
+            selection.ui.open(player);
         })
     }
 }
