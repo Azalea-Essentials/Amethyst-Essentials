@@ -3,11 +3,15 @@ import { commandManager } from './apis/CommandManager';
 import { ResponseTypes, playerManager } from 'apis/PlayerManager';
 import './importer';
 import config from 'uis/config';
+import { chatranksModule } from 'modules/chatranks';
 
 world.beforeEvents.chatSend.subscribe(msg=>{
     if(msg.message.startsWith('!')) {
         msg.cancel = true;
         commandManager.run(msg, "!")
+    } else {
+        msg.cancel = true;
+        chatranksModule.call(msg);
     }
 })
 

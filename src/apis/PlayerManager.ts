@@ -45,9 +45,12 @@ class PlayerManager {
             .map(tag=> tag.substring(prefix.length))
     }
     getFirstTagStartingWith(player: Player, prefix: string): string | null {
-        let tags = this.getFirstTagStartingWith(player, prefix);
+        let tags = this.getTagsStartingWith(player, prefix);
         if(tags.length) return tags[0]
         else return null;
+    }
+    isAdmin(player: Player) {
+        return player.hasTag("admin") || player.isOp()
     }
 }
 export { ResponseTypes, TagPrefixes };
