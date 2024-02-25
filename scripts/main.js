@@ -9,7 +9,8 @@ world.beforeEvents.chatSend.subscribe(msg => {
         commandManager.run(msg, "!");
     }
     else {
-        msg.cancel = true;
+        if (chatranksModule.enabled)
+            msg.cancel = true;
         chatranksModule.call(msg);
     }
 });
