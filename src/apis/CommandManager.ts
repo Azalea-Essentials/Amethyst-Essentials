@@ -56,7 +56,7 @@ export class CommandManager {
             let name = msg.message.substring(prefix.length).split(' ')[0];
             let args = msg.message.substring(prefix.length).split(' ').slice(1);
             let command = this.commands.find(_=>_.name == name);
-            if(!command) return playerManager.sendResponse(msg.sender, ResponseTypes.Error, "no command :(");
+            if(!command) return playerManager.sendResponse(msg.sender, ResponseTypes.Error, "Command not found!");
             let subcommand = command.subcommands.find(_=>_.name == args[0]);
             if(args.length >= 1 && subcommand) {
                 subcommand.callback(msg, args.slice(1));

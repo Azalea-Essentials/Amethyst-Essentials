@@ -32,6 +32,16 @@
                 0,
                 0
             ]
+        },
+        {
+            "type": "data",
+            "uuid": "fb1e329c-399f-47d7-994a-6d87403be884",
+            "description": "Data",
+            "version": [
+                1,
+                0,
+                0
+            ]
         }
     ],
     "dependencies": [

@@ -9,8 +9,15 @@ enum ResponseTypes {
     Wait = "WAIT",
     Info = "INFO",
 }
+enum TagPrefixes {
+    Rank = "rank:",
+    NameColor = "name-color:",
+    BracketColor = "bracket-color:",
+    MessageColor = "message-color:"
+}
 class PlayerManager {
     sendResponse(player: Player, type: responseType, text: string) {
+        player.playSound("note.pling")
         switch(type) {
             case ResponseTypes.Error:
                 player.sendMessage(`§l§cERROR §8» §r§7${text.replaceAll('{{ALT}}', '§o§c').replaceAll('{{RESET}}', '§r§7')}`)
@@ -32,6 +39,16 @@ class PlayerManager {
                 break;
         }
     }
+    getTagsStartingWith(player: Player, prefix: string): string[] {
+        return player.getTags()
+            .filter(tag=> tag.startsWith(prefix))
+            .map(tag=> tag.substring(prefix.length))
+    }
+    getFirstTagStartingWith(player: Player, prefix: string): string | null {
+        let tags = this.getFirstTagStartingWith(player, prefix);
+        if(tags.length) return tags[0]
+        else return null;
+    }
 }
-export { ResponseTypes };
+export { ResponseTypes, TagPrefixes };
 export const playerManager = new PlayerManager();

@@ -3,7 +3,7 @@ import {
     system,
     world,
 } from '@minecraft/server';
-import LZString from './lib/lz-string';
+import LZString from '../lib/lz-string';
 // 100% copied from stackoverflow because im dumb lmfao
 // AzaleaDB is legacy now.
 function MergeRecursive(obj1, obj2) {
