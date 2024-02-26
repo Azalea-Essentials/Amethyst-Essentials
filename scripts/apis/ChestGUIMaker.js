@@ -42,3 +42,4 @@ class ChestGUIMaker {
         return 0;
     }
 }
+export const chestguis = new ChestGUIMaker();

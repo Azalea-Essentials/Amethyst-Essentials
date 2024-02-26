@@ -15,7 +15,9 @@ type ChestGUI = {
     title: string;
     rows: number;
     id: number;
-    icons: ChestGUIItem[]
+    icons: ChestGUIItem[];
+    exitMessage?: string;
+    theme?: number;
 }
 class ChestGUIMaker {
 
@@ -57,3 +59,5 @@ class ChestGUIMaker {
         return 0;
     }
 }
+
+export const chestguis = new ChestGUIMaker();

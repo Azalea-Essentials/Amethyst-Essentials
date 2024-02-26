@@ -1,6 +1,7 @@
 import { ActionFormData } from "@minecraft/server-ui";
 import chatCustomizationUI from "./chatCustomizationUI";
 import creditsUI from "./creditsUI";
+import chestGUIEditorRoot from "./chestGUIEditorRoot";
 var OptionTypes;
 (function (OptionTypes) {
     OptionTypes[OptionTypes["Dropdown"] = 0] = "Dropdown";
@@ -11,7 +12,7 @@ var OptionTypes;
 let options = [
     {
         name: "§aChat\n§7Chat Customization",
-        icon: "textures/azalea_icons/Chat",
+        icon: "textures/3d_icons/chat",
         key: "Chat",
         ui: chatCustomizationUI
     },
@@ -19,10 +20,7 @@ let options = [
         name: "§6Chest GUIs\n§7Manage Chest GUIs",
         icon: "textures/3d_icons/Chest",
         key: "Chest",
-        ui: {
-            name: "a",
-            open() { }
-        }
+        ui: chestGUIEditorRoot
     },
     {
         name: "§cCredits\n§7See people who helped",
