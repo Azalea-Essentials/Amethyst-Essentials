@@ -1,6 +1,7 @@
 import { ActionFormData } from "@minecraft/server-ui";
 import { Player } from "@minecraft/server"
 import chatCustomizationUI from "./chatCustomizationUI";
+import creditsUI from "./creditsUI";
 enum OptionTypes {
     Dropdown = 0,
     Text = 1,
@@ -38,7 +39,23 @@ let options:OptionsObject[] = [
         icon: "textures/azalea_icons/Chat",
         key: "Chat",
         ui: chatCustomizationUI
-    }
+    },
+    {
+        name: "§6Chest GUIs\n§7Manage Chest GUIs",
+        icon: "textures/3d_icons/Chest",
+        key: "Chest",
+        ui: {
+            name: "a",
+            open(){}
+        }
+    },
+    {
+        name: "§cCredits\n§7See people who helped",
+        icon: "textures/minidevs/icon",
+        key: "Credits",
+        ui: creditsUI
+    },
+
 ]
 export default {
     name: "AzaleaRewrite0.1/Config",
