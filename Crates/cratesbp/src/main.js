@@ -1,7 +1,7 @@
 import { world, Vector, Player, system, EnchantmentTypes } from "@minecraft/server";
 import { ActionFormData, MessageFormData, ModalFormData } from "@minecraft/server-ui"
-import { any, armor, bow, crossbow, fishingrod, sword, axe, pickaxe, hoe, shovel } from "./modules/enchantments";
-import { set1, set2, set3, set4, set5, set6, set7, set8, set9, set10, rewardnames, keynames } from "./rewards.js";
+import { any, armor, bow, crossbow, fishingrod, sword, axe, pickaxe, hoe, shovel } from "../../../src/modules/enchantments.js";
+import { set1, set2, set3, set4, set5, set6, set7, set8, set9, set10, rewardnames, keynames } from "../../../src/rewards.js";
 let rewardsSet = [set1, set2, set3, set4, set5, set6, set7, set8, set9, set10]
 
 class Enchantment {

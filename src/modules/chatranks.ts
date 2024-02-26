@@ -21,9 +21,18 @@ class ChatranksModule {
         this.enabled = false;
         this.modulesDb.set(this.moduleKey, "false")
     }
+    callIconRanks(msg: ChatSendBeforeEvent) {
+        let tag = playerManager.getIconRank(msg.sender);
+        let icon = playerManager.getIconRankIcon(tag ? tag : "MEMBER");
+        for(const player of world.getPlayers()) {
+            player.sendMessage(`${icon.icon} ${icon.color}${msg.sender.name} §r§8§l» §r§7${msg.message}`);
+        }
+    }
     call(msg: ChatSendBeforeEvent) {
         if(!this.enabled) return;
-
+        let moduleConfig = chatranksModule.modulesDb.get("ChatConfig", {});
+        let chatranksStyle = moduleConfig.chatranksStyle ?? 0;
+        if(chatranksStyle == 2) return this.callIconRanks(msg); 
         let ranks = playerManager.getTagsStartingWith(msg.sender, TagPrefixes.Rank);
         let nameColor = playerManager.getFirstTagStartingWith(msg.sender, TagPrefixes.NameColor) ?? configuration.modules.chatranks.defaultNameColor;
         let bracketColor = playerManager.getFirstTagStartingWith(msg.sender, TagPrefixes.BracketColor) ?? configuration.modules.chatranks.defaultBracketColor;

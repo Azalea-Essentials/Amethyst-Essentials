@@ -13,6 +13,7 @@ var TagPrefixes;
     TagPrefixes["NameColor"] = "name-color:";
     TagPrefixes["BracketColor"] = "bracket-color:";
     TagPrefixes["MessageColor"] = "message-color:";
+    TagPrefixes["IconRank"] = "icon-rank:";
 })(TagPrefixes || (TagPrefixes = {}));
 class PlayerManager {
     sendResponse(player, type, text) {
@@ -49,6 +50,32 @@ class PlayerManager {
             return tags[0];
         else
             return null;
+    }
+    getIconRank(player) {
+        return this.getFirstTagStartingWith(player, TagPrefixes.IconRank);
+    }
+    getIconRankIcon(rank) {
+        // type IconRank = "AZALEA" | "ADMIN" | "OWNER" | "BUILDER" | "HELPER" | "MOD" | "DEV" | "TRIALMOD" | "MEMBER"
+        let iconRankIDs = ["azalea", "admin", "owner", "builder", "helper", "mod", "dev", "trialmod", "member"];
+        let icons = ["\uE300", "\uE302", "\uE303", "\uE304", "\uE305", "\uE306", "\uE307", "\uE308", "\uE309"];
+        let iconColors = ["§d", "§b", "§5", "§a", "§6", "§c", "§b", "§9", "§7"];
+        let index = iconRankIDs.findIndex(_ => _.toUpperCase() == rank.toUpperCase());
+        if (index < 0)
+            return {
+                icon: "\uE309",
+                color: "§7"
+            };
+        return {
+            icon: icons[index],
+            color: iconColors[index]
+        };
+    }
+    setIconRank(player, rank) {
+        let tags = this.getTagsStartingWith(player, TagPrefixes.IconRank);
+        for (const tag of tags) {
+            player.removeTag(tag);
+        }
+        player.addTag(`${TagPrefixes.IconRank}${rank.toLowerCase()}`);
     }
     isAdmin(player) {
         return player.hasTag("admin") || player.isOp();

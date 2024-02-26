@@ -82,7 +82,7 @@ export class DatabaseLegacy {
         // tables[this.table].set(key, val);
         // })
     }
-    get(key, defaultResult = "") {
+    get(key, defaultResult:any = "") {
         let cacheData = this.getCache();
         if (cacheData.has(key)) return cacheData.get(key);
         try {

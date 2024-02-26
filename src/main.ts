@@ -16,7 +16,7 @@ world.beforeEvents.chatSend.subscribe(msg=>{
 })
 
 world.beforeEvents.itemUse.subscribe(e=>{
-    if(e.itemStack.typeId == "minecraft:stick") {
+    if(e.itemStack.typeId == "azalea:config_ui") {
         system.run(()=>{
             config.open(e.source);
 

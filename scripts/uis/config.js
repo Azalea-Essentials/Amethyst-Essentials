@@ -1,5 +1,7 @@
 import { ActionFormData } from "@minecraft/server-ui";
 import chatCustomizationUI from "./chatCustomizationUI";
+import creditsUI from "./creditsUI";
+import chestGUIEditorRoot from "./chestGUIEditorRoot";
 var OptionTypes;
 (function (OptionTypes) {
     OptionTypes[OptionTypes["Dropdown"] = 0] = "Dropdown";
@@ -10,10 +12,22 @@ var OptionTypes;
 let options = [
     {
         name: "§aChat\n§7Chat Customization",
-        icon: "textures/azalea_icons/Chat",
+        icon: "textures/3d_icons/chat",
         key: "Chat",
         ui: chatCustomizationUI
-    }
+    },
+    {
+        name: "§6Chest GUIs\n§7Manage Chest GUIs",
+        icon: "textures/3d_icons/Chest",
+        key: "Chest",
+        ui: chestGUIEditorRoot
+    },
+    {
+        name: "§cCredits\n§7See people who helped",
+        icon: "textures/minidevs/icon",
+        key: "Credits",
+        ui: creditsUI
+    },
 ];
 export default {
     name: "AzaleaRewrite0.1/Config",
