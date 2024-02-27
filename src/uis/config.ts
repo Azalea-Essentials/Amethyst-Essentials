@@ -2,6 +2,7 @@ import { ActionFormData } from "@minecraft/server-ui";
 import { Player } from "@minecraft/server"
 import chatCustomizationUI from "./chatCustomizationUI";
 import creditsUI from "./creditsUI";
+import settingsUI from "./settingsUI";
 import chestGUIEditorRoot from "./chestGUIEditorRoot";
 enum OptionTypes {
     Dropdown = 0,
@@ -46,6 +47,12 @@ let options:OptionsObject[] = [
         icon: "textures/3d_icons/Chest",
         key: "Chest",
         ui: chestGUIEditorRoot
+    },
+    {
+        name: "§6Settings\n§7Config and edit settings ingame!",
+        icon: "textures/3d_icons/Chest",
+        key: "Settings",
+        ui: settingsUi
     },
     {
         name: "§cCredits\n§7See people who helped",
