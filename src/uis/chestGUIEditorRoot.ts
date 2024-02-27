@@ -1,11 +1,11 @@
 import { Player } from "@minecraft/server"
-import { ActionFormData, ModalFormData } from "@minecraft/server-ui"
+import { ActionFormData, MessageFormData, ModalFormData } from "@minecraft/server-ui"
 import { chatranksModule } from "modules/chatranks";
 import config from "./config";
 import { ChestFormData } from "chest/forms";
 import { chestguis } from "apis/ChestGUIMaker";
 import createChestGUI from "./createChestGUI";
-export default {
+let root = {
     name: "AzaleaRewrite0.1/ChestGUIs/Root",
     open(player: Player) {
         let ui = new ActionFormData();
@@ -23,9 +23,19 @@ export default {
             if(res.canceled) return config.open(player);
             if(res.selection == 0) {
                 createChestGUI.open(player);
+            } else if(buttons[res.selection]){
+
             } else {
-                config.open(player);
+                let messageForm = new MessageFormData();
+                messageForm.title("Chest GUI Maker Help");
+                messageForm.body("Help dialog")
+                messageForm.button1("§aBack")
+                messageForm.button2("§aBack")
+                messageForm.show(player).then(res=>{
+                    root.open(player)
+                })
             }
         })
     }
 }
+export default root;

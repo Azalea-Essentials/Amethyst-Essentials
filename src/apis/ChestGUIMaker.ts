@@ -16,8 +16,23 @@ type ChestGUI = {
     rows: number;
     id: number;
     icons: ChestGUIItem[];
-    exitMessage?: string;
-    theme?: number;
+    exitMessage: string;
+    theme: number;
+}
+enum addItemResponse {
+    // returns -1 if the chest gui is not found
+    // returns -2 if the icon ID is not valid
+    // returns -3 if there is already an icon in that slot
+    // returns 0 if successful
+    Successful = 0,
+    ChestGUINotFound = -1,
+    InvalidIconID = -2,
+    IconAlreadyInSlot = -3,
+}
+enum makeChestGUI {
+    AdminTagNotAllowed = -1,
+    DuplicateGUI = -2,
+    Successful = 0,
 }
 class ChestGUIMaker {
 
@@ -64,3 +79,5 @@ class ChestGUIMaker {
 }
 
 export const chestguis = new ChestGUIMaker();
+
+export { makeChestGUI, addItemResponse}
