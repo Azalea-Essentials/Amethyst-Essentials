@@ -1,5 +1,22 @@
 import { iconManager } from "./IconManager";
 import { Database } from "./database";
+var addItemResponse;
+(function (addItemResponse) {
+    // returns -1 if the chest gui is not found
+    // returns -2 if the icon ID is not valid
+    // returns -3 if there is already an icon in that slot
+    // returns 0 if successful
+    addItemResponse[addItemResponse["Successful"] = 0] = "Successful";
+    addItemResponse[addItemResponse["ChestGUINotFound"] = -1] = "ChestGUINotFound";
+    addItemResponse[addItemResponse["InvalidIconID"] = -2] = "InvalidIconID";
+    addItemResponse[addItemResponse["IconAlreadyInSlot"] = -3] = "IconAlreadyInSlot";
+})(addItemResponse || (addItemResponse = {}));
+var makeChestGUI;
+(function (makeChestGUI) {
+    makeChestGUI[makeChestGUI["AdminTagNotAllowed"] = -1] = "AdminTagNotAllowed";
+    makeChestGUI[makeChestGUI["DuplicateGUI"] = -2] = "DuplicateGUI";
+    makeChestGUI[makeChestGUI["Successful"] = 0] = "Successful";
+})(makeChestGUI || (makeChestGUI = {}));
 class ChestGUIMaker {
     constructor() {
         this.db = new Database("ChestGUIs");
@@ -41,5 +58,9 @@ class ChestGUIMaker {
         this.saveChest();
         return 0;
     }
+    convertRowAndColumnToSlot(row, column) {
+        return 9 * (row - 1) + (column - 1);
+    }
 }
 export const chestguis = new ChestGUIMaker();
+export { makeChestGUI, addItemResponse };

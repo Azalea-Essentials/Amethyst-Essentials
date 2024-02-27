@@ -1,11 +1,8 @@
-# made by Otf5shotzz
+# Made by Otf5shotzz
 # setups
 
-scoreboard objectives add Flying azalea:minecraft.fly_one_cm
+scoreboard objectives add clicks minecraft.used:minecraft.stick
 
-scoreboard objectives add Clicks azalea:minecraft.stick
-
-scoreboard objectives add ClicksDummy dummy
 
 # Keeps the anti working
 
@@ -14,23 +11,7 @@ gamerule randomtickspeed 1
 
 # anti auto click code
 
-execute as @a[scores={Clicks=1..}] run scoreboard players add @s ClicksDummy 1
 
-execute as @a[scores={Clicks=0}] run scoreboard players set @s ClicksDummy 0
-
-execute as @a run scoreboard players remove @s Clicks 1
-
-execute as @a[scores={ClicksDummy=16..}] run say @s is clicking too fast!
-
-eexecute as @a run scoreboard players reset @s ClicksDummy
-
-ececute as @a[scores={ClicksDummy=16..}] run tellraw @s {"text":"You are clicking too fast!","color":"red"}
-
-execute as @a[scores={ClicksDummy=16..}] run kick @s You are clicking too fast!
 
 # anti flying
-
-execute as @a[scores={Flying=1..}] run tp @s ~ ~ ~
-
-scoreboard players reset @a Flying
 
