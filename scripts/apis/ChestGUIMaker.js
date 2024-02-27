@@ -41,5 +41,8 @@ class ChestGUIMaker {
         this.saveChest();
         return 0;
     }
+    convertRowAndColumnToSlot(row, column) {
+        return 9 * (row - 1) + (column - 1);
+    }
 }
 export const chestguis = new ChestGUIMaker();

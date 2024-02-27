@@ -18,7 +18,7 @@ class ChatranksModule {
     }
     callIconRanks(msg) {
         let tag = playerManager.getIconRank(msg.sender);
-        let icon = playerManager.getIconRankIcon(tag ? tag : "MEMBER");
+        let icon = playerManager.getIconRankIconColor(msg.sender, tag ? tag : "MEMBER");
         for (const player of world.getPlayers()) {
             player.sendMessage(`${icon.icon} ${icon.color}${msg.sender.name} §r§8§l» §r§7${msg.message}`);
         }

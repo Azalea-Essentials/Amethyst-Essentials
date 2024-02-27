@@ -1,7 +1,12 @@
-import { ChatSendBeforeEvent, world } from "@minecraft/server";
+import { ChatSendBeforeEvent, Player, world } from "@minecraft/server";
 import { TagPrefixes, playerManager } from "apis/PlayerManager";
 import { DatabaseLegacy } from "apis/database";
 import configuration from "configuration";
+
+type chatData = {
+    sender: Player,
+    message: string
+}
 
 class ChatranksModule {
     modulesDb: DatabaseLegacy;
@@ -21,14 +26,14 @@ class ChatranksModule {
         this.enabled = false;
         this.modulesDb.set(this.moduleKey, "false")
     }
-    callIconRanks(msg: ChatSendBeforeEvent) {
+    callIconRanks(msg: ChatSendBeforeEvent | chatData) {
         let tag = playerManager.getIconRank(msg.sender);
-        let icon = playerManager.getIconRankIcon(tag ? tag : "MEMBER");
+        let icon = playerManager.getIconRankIconColor(msg.sender, tag ? tag : "MEMBER");
         for(const player of world.getPlayers()) {
             player.sendMessage(`${icon.icon} ${icon.color}${msg.sender.name} §r§8§l» §r§7${msg.message}`);
         }
     }
-    call(msg: ChatSendBeforeEvent) {
+    call(msg: ChatSendBeforeEvent | chatData) {
         if(!this.enabled) return;
         let moduleConfig = chatranksModule.modulesDb.get("ChatConfig", {});
         let chatranksStyle = moduleConfig.chatranksStyle ?? 0;
