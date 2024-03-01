@@ -19,9 +19,21 @@ var makeChestGUI;
 })(makeChestGUI || (makeChestGUI = {}));
 class ChestGUIMaker {
     constructor() {
+        this.columnSize = 9;
+        this.rowColumnOffset = 1;
         this.db = new Database("ChestGUIs");
         this.chestGUIs = [];
         this.loadChest();
+    }
+    getByID(id) {
+        return this.chestGUIs.find(_ => _.id == id);
+    }
+    replaceItemInChestGUI(itemIndex, chestGUIId, options) {
+        let result = this.addItemToChestGUI(chestGUIId, options);
+        let index = this.chestGUIs.findIndex(_ => _.id == chestGUIId);
+        this.chestGUIs[index].icons.splice(itemIndex, 1);
+        this.saveChest();
+        return result;
     }
     loadChest() {
         this.chestGUIs = this.db.get("Forms", []);
@@ -58,8 +70,13 @@ class ChestGUIMaker {
         this.saveChest();
         return 0;
     }
-    convertRowAndColumnToSlot(row, column) {
-        return 9 * (row - 1) + (column - 1);
+    convertRowAndColumnToSlot(position) {
+        return this.columnSize * (position.row - this.rowColumnOffset) + (position.col - this.rowColumnOffset);
+    }
+    convertSlotToRowColumn(slot) {
+        let row = Math.floor(slot / this.columnSize) + this.rowColumnOffset;
+        let col = (slot % this.columnSize) + this.rowColumnOffset;
+        return { row, col };
     }
 }
 export const chestguis = new ChestGUIMaker();

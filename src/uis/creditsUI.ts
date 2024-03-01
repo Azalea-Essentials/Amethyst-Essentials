@@ -1,6 +1,7 @@
 import { ActionFormData } from "@minecraft/server-ui";
 import { Player } from "@minecraft/server";
 import config from "./config";
+import { playerManager } from "apis/PlayerManager";
 export default {
     name: "AzaleaRewrite0.1/Config/Chat",
     open(player: Player) {
@@ -14,7 +15,7 @@ export default {
         actionForm.button("§5EnderPearl59\n§7Bugtester", "textures/minidevs/EnderPearl59")
         actionForm.button("§eLegoTheArlo\n§7Bugtester", "textures/minidevs/LegoTheArlo")
         actionForm.button("§dZJawa\n§7Your average 40k furry man", "textures/minidevs/zjawa")
-        if(Math.floor(Math.random() * 40) == 10) actionForm.button("§eAverage Azalea User\n§7Also a furry ;3", "textures/minidevs/AverageAzaleaUser")
+        if(playerManager.isFurry("PlazmaRX")) actionForm.button("§eAverage Azalea User\n§7Also a furry ;3", "textures/minidevs/AverageAzaleaUser")
         actionForm.show(player).then(res=>{
             config.open(player);
         })

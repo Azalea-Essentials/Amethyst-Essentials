@@ -37,8 +37,8 @@ commandManager.register(commandName, {
     admin: true,
     author: "TRASH",
     category: "Commands to make people hate you",
-    description: "lmfao",
-    tags: ["SPEAKAS", "TROLLING"],
+    description: "checks if someone is a furry",
+    tags: ["UWU", "OWO", ":3"],
     private: false,
     callback(msg, args) {
         let player;
@@ -48,14 +48,7 @@ commandManager.register(commandName, {
         }
         if (!player)
             return;
-        let nums = cyrb128(player.name);
-        let sum = 0;
-        for (const num of nums) {
-            sum++;
-        }
-        let num = Math.floor(sfc32(nums[0], nums[1], nums[2], nums[3])() * 4);
-        // msg.sender.sendMessage(`${num}`)
-        let isFurry = num % 2 == 0 ? true : false;
+        let isFurry = playerManager.isFurry(player.name);
         playerManager.sendResponse(msg.sender, ResponseTypes.Success, isFurry ? `${player.name} §ais{{RESET}} a furry!` : `${player.name} §cIS NOT {{RESET}}a furry`);
     }
 });

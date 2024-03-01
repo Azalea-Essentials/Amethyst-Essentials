@@ -2,6 +2,7 @@ import { ActionFormData, MessageFormData } from "@minecraft/server-ui";
 import config from "./config";
 import { chestguis } from "apis/ChestGUIMaker";
 import createChestGUI from "./createChestGUI";
+import chestGUIEdit from "./chestGUIEdit";
 let root = {
     name: "AzaleaRewrite0.1/ChestGUIs/Root",
     open(player) {
@@ -22,6 +23,7 @@ let root = {
                 createChestGUI.open(player);
             }
             else if (buttons[res.selection]) {
+                chestGUIEdit.open(player, buttons[res.selection].id);
             }
             else {
                 let messageForm = new MessageFormData();

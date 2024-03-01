@@ -1,5 +1,9 @@
 import { iconManager } from "./IconManager";
 import { Database } from "./database";
+type RowCol = {
+    row: number,
+    col: number
+}
 type ChestGUIItem = {
     command: string;
     tagToView: string | null;
@@ -38,10 +42,24 @@ class ChestGUIMaker {
 
     chestGUIs: ChestGUI[];
     db: Database;
+    private readonly columnSize: number;
+    private readonly rowColumnOffset: number;
     constructor() {
+        this.columnSize = 9;
+        this.rowColumnOffset = 1;
         this.db = new Database("ChestGUIs");
         this.chestGUIs = [];
         this.loadChest();
+    }
+    getByID(id: number) {
+        return this.chestGUIs.find(_=>_.id == id);
+    }
+    replaceItemInChestGUI(itemIndex: number, chestGUIId: number, options: ChestGUIItem) {
+        let result = this.addItemToChestGUI(chestGUIId, options);
+        let index = this.chestGUIs.findIndex(_=>_.id == chestGUIId);
+        this.chestGUIs[index].icons.splice(itemIndex, 1);
+        this.saveChest();
+        return result;
     }
     loadChest() {
         this.chestGUIs = this.db.get("Forms", []);
@@ -73,8 +91,13 @@ class ChestGUIMaker {
         this.saveChest();
         return 0;
     }
-    convertRowAndColumnToSlot(row: number, column: number): number {
-        return 9 * (row - 1) + (column - 1)
+    convertRowAndColumnToSlot(position: RowCol): number {
+        return this.columnSize * (position.row - this.rowColumnOffset) + (position.col - this.rowColumnOffset)
+    }
+    convertSlotToRowColumn(slot: number): RowCol {
+        let row = Math.floor(slot / this.columnSize) + this.rowColumnOffset;
+        let col = (slot % this.columnSize) + this.rowColumnOffset;
+        return { row, col }
     }
 }
 

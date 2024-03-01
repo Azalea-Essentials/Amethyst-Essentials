@@ -5,6 +5,7 @@ import config from "./config";
 import { ChestFormData } from "chest/forms";
 import { chestguis } from "apis/ChestGUIMaker";
 import createChestGUI from "./createChestGUI";
+import chestGUIEdit from "./chestGUIEdit";
 let root = {
     name: "AzaleaRewrite0.1/ChestGUIs/Root",
     open(player: Player) {
@@ -24,7 +25,7 @@ let root = {
             if(res.selection == 0) {
                 createChestGUI.open(player);
             } else if(buttons[res.selection]){
-
+                chestGUIEdit.open(player, buttons[res.selection].id)
             } else {
                 let messageForm = new MessageFormData();
                 messageForm.title("Chest GUI Maker Help");

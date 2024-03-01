@@ -3,6 +3,10 @@ import { commandManager } from './apis/CommandManager';
 import './importer';
 import config from 'uis/config';
 import { chatranksModule } from 'modules/chatranks';
+import { betterNametags } from 'modules/betterNametags';
+system.runInterval(() => {
+    betterNametags.call();
+}, 20);
 world.beforeEvents.chatSend.subscribe(msg => {
     if (msg.message.startsWith('!')) {
         msg.cancel = true;
