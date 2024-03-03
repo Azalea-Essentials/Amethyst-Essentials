@@ -15,7 +15,7 @@ class PermissionManager {
     }
     initializePermissionSystem() {
         let roles = this.permissionsDB.get("roles", []);
-        if(!roles && !roles.length) {
+        if(!roles || !roles.length) {
             roles = [
                 {
                     tag: "admin",
@@ -24,6 +24,13 @@ class PermissionManager {
                 }
             ];
             this.permissionsDB.set("roles", roles)
+        }
+        if(!roles.find(role=>role.tag=="default")) {
+            roles.push({
+                tag: "default",
+                isAdmin: false,
+                permissions: ["homes.set", "homes.tp", "homes.delete"]
+            })
         }
         this.roles = roles;
     }
@@ -42,12 +49,19 @@ class PermissionManager {
         });
         this.save();
     }
+    setRolePermission(tag: string, isAdmin: boolean, permissions: string[]) {
+        let roleIndex = this.roles.findIndex(role=>role.tag == tag);
+        if(roleIndex < 0 ) return;
+        this.roles[roleIndex].isAdmin = isAdmin;
+        this.roles[roleIndex].permissions = permissions;
+        this.save();
+    }
     hasPermission(player: Player, permission: string) {
         // TODO Add default role permissions.
         let permissions = [];
 
         for(const role of this.roles) {
-            if(!player.hasTag(role.tag)) continue;
+            if(!player.hasTag(role.tag) && role.tag != "default") continue;
 
             if(role.isAdmin) return true;
 

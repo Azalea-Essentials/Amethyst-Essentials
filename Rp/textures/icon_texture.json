@@ -1,0 +1,2307 @@
+{
+  "resource_pack_name": "a",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "playershop": {
+      "textures": "textures/items/playershop"
+    },
+    "key": {
+      "textures": "textures/items/cobblestone_key"
+    },
+    "server": {
+      "textures": "textures/items/server"
+    },
+    "plunger": {
+      "textures": "textures/items/plunger"
+    },
+    "warps": {
+      "textures": "textures/items/warps"
+    },
+    "bindable_1": {
+      "textures": "textures/items/bindable_1"
+    },
+    "bindable_2": {
+      "textures": "textures/items/bindable_2"
+    },
+    "bindable_3": {
+      "textures": "textures/items/bindable_3"
+    },
+    "bindable_4": {
+      "textures": "textures/items/bindable_4"
+    },
+    "bindable_5": {
+      "textures": "textures/items/bindable_5"
+    },
+    "bindable_6": {
+      "textures": "textures/items/bindable_6"
+    },
+    "bindable_7": {
+      "textures": "textures/items/bindable_7"
+    },
+    "bindable_8": {
+      "textures": "textures/items/bindable_8"
+    },
+    "bindable_9": {
+      "textures": "textures/items/bindable_9"
+    },
+    "bindable_10": {
+      "textures": "textures/items/bindable_10"
+    },
+    "bindable_11": {
+      "textures": "textures/items/bindable_11"
+    },
+    "bindable_12": {
+      "textures": "textures/items/bindable_12"
+    },
+    "bindable_13": {
+      "textures": "textures/items/bindable_13"
+    },
+    "bindable_14": {
+      "textures": "textures/items/bindable_14"
+    },
+    "bindable_15": {
+      "textures": "textures/items/bindable_15"
+    },
+    "bindable_16": {
+      "textures": "textures/items/bindable_16"
+    },
+    "bindable_17": {
+      "textures": "textures/items/bindable_17"
+    },
+    "bindable_18": {
+      "textures": "textures/items/bindable_18"
+    },
+    "bindable_19": {
+      "textures": "textures/items/bindable_19"
+    },
+    "bindable_20": {
+      "textures": "textures/items/bindable_20"
+    },
+    "bindable_21": {
+      "textures": "textures/items/bindable_21"
+    },
+    "bindable_22": {
+      "textures": "textures/items/bindable_22"
+    },
+    "bindable_23": {
+      "textures": "textures/items/bindable_23"
+    },
+    "bindable_24": {
+      "textures": "textures/items/bindable_24"
+    },
+    "bindable_25": {
+      "textures": "textures/items/bindable_25"
+    },
+    "bindable_26": {
+      "textures": "textures/items/bindable_26"
+    },
+    "bindable_27": {
+      "textures": "textures/items/bindable_27"
+    },
+    "bindable_28": {
+      "textures": "textures/items/bindable_28"
+    },
+    "bindable_29": {
+      "textures": "textures/items/bindable_29"
+    },
+    "bindable_30": {
+      "textures": "textures/items/bindable_30"
+    },
+    "bindable_31": {
+      "textures": "textures/items/bindable_31"
+    },
+    "bindable_32": {
+      "textures": "textures/items/bindable_32"
+    },
+    "amethyst_shard": {
+      "textures": "azalea_icons/icontextures/amethyst_shard"
+    },
+    "anvil": {
+      "textures": "azalea_icons/icontextures/anvil"
+    },
+    "anvil_2": {
+      "textures": "azalea_icons/icontextures/anvil_2"
+    },
+    "apple": {
+      "textures": "azalea_icons/icontextures/apple"
+    },
+    "armor_01a": {
+      "textures": "azalea_icons/icontextures/armor_01a"
+    },
+    "armor_01b": {
+      "textures": "azalea_icons/icontextures/armor_01b"
+    },
+    "armor_01c": {
+      "textures": "azalea_icons/icontextures/armor_01c"
+    },
+    "armor_01d": {
+      "textures": "azalea_icons/icontextures/armor_01d"
+    },
+    "armor_01e": {
+      "textures": "azalea_icons/icontextures/armor_01e"
+    },
+    "armor_stand": {
+      "textures": "azalea_icons/icontextures/armor_stand"
+    },
+    "arm_guard": {
+      "textures": "azalea_icons/icontextures/arm_guard"
+    },
+    "arm_guard_2": {
+      "textures": "azalea_icons/icontextures/arm_guard_2"
+    },
+    "arrow": {
+      "textures": "azalea_icons/icontextures/arrow"
+    },
+    "arrow_01a": {
+      "textures": "azalea_icons/icontextures/arrow_01a"
+    },
+    "arrow_01b": {
+      "textures": "azalea_icons/icontextures/arrow_01b"
+    },
+    "arrow_01c": {
+      "textures": "azalea_icons/icontextures/arrow_01c"
+    },
+    "arrow_01d": {
+      "textures": "azalea_icons/icontextures/arrow_01d"
+    },
+    "arrow_01e": {
+      "textures": "azalea_icons/icontextures/arrow_01e"
+    },
+    "arrow_02a": {
+      "textures": "azalea_icons/icontextures/arrow_02a"
+    },
+    "arrow_02b": {
+      "textures": "azalea_icons/icontextures/arrow_02b"
+    },
+    "arrow_02c": {
+      "textures": "azalea_icons/icontextures/arrow_02c"
+    },
+    "arrow_02d": {
+      "textures": "azalea_icons/icontextures/arrow_02d"
+    },
+    "arrow_02e": {
+      "textures": "azalea_icons/icontextures/arrow_02e"
+    },
+    "arrow_03a": {
+      "textures": "azalea_icons/icontextures/arrow_03a"
+    },
+    "arrow_03b": {
+      "textures": "azalea_icons/icontextures/arrow_03b"
+    },
+    "arrow_03c": {
+      "textures": "azalea_icons/icontextures/arrow_03c"
+    },
+    "arrow_03d": {
+      "textures": "azalea_icons/icontextures/arrow_03d"
+    },
+    "arrow_03e": {
+      "textures": "azalea_icons/icontextures/arrow_03e"
+    },
+    "arrow_2": {
+      "textures": "azalea_icons/icontextures/arrow_2"
+    },
+    "axolotl_bucket": {
+      "textures": "azalea_icons/icontextures/axolotl_bucket"
+    },
+    "baked_potato": {
+      "textures": "azalea_icons/icontextures/baked_potato"
+    },
+    "bamboo": {
+      "textures": "azalea_icons/icontextures/bamboo"
+    },
+    "beef": {
+      "textures": "azalea_icons/icontextures/beef"
+    },
+    "beetroot": {
+      "textures": "azalea_icons/icontextures/beetroot"
+    },
+    "blaze_powder": {
+      "textures": "azalea_icons/icontextures/blaze_powder"
+    },
+    "blaze_rod": {
+      "textures": "azalea_icons/icontextures/blaze_rod"
+    },
+    "bone": {
+      "textures": "azalea_icons/icontextures/bone"
+    },
+    "bone01a": {
+      "textures": "azalea_icons/icontextures/bone01a"
+    },
+    "bone_meal": {
+      "textures": "azalea_icons/icontextures/bone_meal"
+    },
+    "book": {
+      "textures": "azalea_icons/icontextures/book"
+    },
+    "book_01a": {
+      "textures": "azalea_icons/icontextures/book_01a"
+    },
+    "book_01b": {
+      "textures": "azalea_icons/icontextures/book_01b"
+    },
+    "book_01c": {
+      "textures": "azalea_icons/icontextures/book_01c"
+    },
+    "book_01d": {
+      "textures": "azalea_icons/icontextures/book_01d"
+    },
+    "book_01e": {
+      "textures": "azalea_icons/icontextures/book_01e"
+    },
+    "book_01f": {
+      "textures": "azalea_icons/icontextures/book_01f"
+    },
+    "book_01g": {
+      "textures": "azalea_icons/icontextures/book_01g"
+    },
+    "book_02a": {
+      "textures": "azalea_icons/icontextures/book_02a"
+    },
+    "book_02b": {
+      "textures": "azalea_icons/icontextures/book_02b"
+    },
+    "book_02c": {
+      "textures": "azalea_icons/icontextures/book_02c"
+    },
+    "book_02d": {
+      "textures": "azalea_icons/icontextures/book_02d"
+    },
+    "book_02e": {
+      "textures": "azalea_icons/icontextures/book_02e"
+    },
+    "book_02f": {
+      "textures": "azalea_icons/icontextures/book_02f"
+    },
+    "book_02g": {
+      "textures": "azalea_icons/icontextures/book_02g"
+    },
+    "book_03a": {
+      "textures": "azalea_icons/icontextures/book_03a"
+    },
+    "book_03b": {
+      "textures": "azalea_icons/icontextures/book_03b"
+    },
+    "book_03c": {
+      "textures": "azalea_icons/icontextures/book_03c"
+    },
+    "book_03d": {
+      "textures": "azalea_icons/icontextures/book_03d"
+    },
+    "book_03e": {
+      "textures": "azalea_icons/icontextures/book_03e"
+    },
+    "book_03f": {
+      "textures": "azalea_icons/icontextures/book_03f"
+    },
+    "book_03g": {
+      "textures": "azalea_icons/icontextures/book_03g"
+    },
+    "book_04a": {
+      "textures": "azalea_icons/icontextures/book_04a"
+    },
+    "book_04b": {
+      "textures": "azalea_icons/icontextures/book_04b"
+    },
+    "book_04c": {
+      "textures": "azalea_icons/icontextures/book_04c"
+    },
+    "book_04d": {
+      "textures": "azalea_icons/icontextures/book_04d"
+    },
+    "book_04e": {
+      "textures": "azalea_icons/icontextures/book_04e"
+    },
+    "book_04f": {
+      "textures": "azalea_icons/icontextures/book_04f"
+    },
+    "book_04g": {
+      "textures": "azalea_icons/icontextures/book_04g"
+    },
+    "book_05a": {
+      "textures": "azalea_icons/icontextures/book_05a"
+    },
+    "book_05b": {
+      "textures": "azalea_icons/icontextures/book_05b"
+    },
+    "book_05c": {
+      "textures": "azalea_icons/icontextures/book_05c"
+    },
+    "book_05d": {
+      "textures": "azalea_icons/icontextures/book_05d"
+    },
+    "book_05e": {
+      "textures": "azalea_icons/icontextures/book_05e"
+    },
+    "book_05f": {
+      "textures": "azalea_icons/icontextures/book_05f"
+    },
+    "book_05g": {
+      "textures": "azalea_icons/icontextures/book_05g"
+    },
+    "book_06a": {
+      "textures": "azalea_icons/icontextures/book_06a"
+    },
+    "book_06b": {
+      "textures": "azalea_icons/icontextures/book_06b"
+    },
+    "book_06c": {
+      "textures": "azalea_icons/icontextures/book_06c"
+    },
+    "book_06d": {
+      "textures": "azalea_icons/icontextures/book_06d"
+    },
+    "book_06e": {
+      "textures": "azalea_icons/icontextures/book_06e"
+    },
+    "book_06f": {
+      "textures": "azalea_icons/icontextures/book_06f"
+    },
+    "book_06g": {
+      "textures": "azalea_icons/icontextures/book_06g"
+    },
+    "book_2": {
+      "textures": "azalea_icons/icontextures/book_2"
+    },
+    "boots_01": {
+      "textures": "azalea_icons/icontextures/boots_01"
+    },
+    "boots_01a": {
+      "textures": "azalea_icons/icontextures/boots_01a"
+    },
+    "boots_01b": {
+      "textures": "azalea_icons/icontextures/boots_01b"
+    },
+    "boots_01c": {
+      "textures": "azalea_icons/icontextures/boots_01c"
+    },
+    "boots_01d": {
+      "textures": "azalea_icons/icontextures/boots_01d"
+    },
+    "boots_01e": {
+      "textures": "azalea_icons/icontextures/boots_01e"
+    },
+    "boots_01_2": {
+      "textures": "azalea_icons/icontextures/boots_01_2"
+    },
+    "boots_02": {
+      "textures": "azalea_icons/icontextures/boots_02"
+    },
+    "boots_02_2": {
+      "textures": "azalea_icons/icontextures/boots_02_2"
+    },
+    "bow": {
+      "textures": "azalea_icons/icontextures/bow"
+    },
+    "bowl": {
+      "textures": "azalea_icons/icontextures/bowl"
+    },
+    "bow_01": {
+      "textures": "azalea_icons/icontextures/bow_01"
+    },
+    "bow_01a": {
+      "textures": "azalea_icons/icontextures/bow_01a"
+    },
+    "bow_01b": {
+      "textures": "azalea_icons/icontextures/bow_01b"
+    },
+    "bow_01cc": {
+      "textures": "azalea_icons/icontextures/bow_01cc"
+    },
+    "bow_01d": {
+      "textures": "azalea_icons/icontextures/bow_01d"
+    },
+    "bow_01e": {
+      "textures": "azalea_icons/icontextures/bow_01e"
+    },
+    "bow_01_2": {
+      "textures": "azalea_icons/icontextures/bow_01_2"
+    },
+    "bow_02": {
+      "textures": "azalea_icons/icontextures/bow_02"
+    },
+    "bow_02a": {
+      "textures": "azalea_icons/icontextures/bow_02a"
+    },
+    "bow_02b": {
+      "textures": "azalea_icons/icontextures/bow_02b"
+    },
+    "bow_02cc": {
+      "textures": "azalea_icons/icontextures/bow_02cc"
+    },
+    "bow_02d": {
+      "textures": "azalea_icons/icontextures/bow_02d"
+    },
+    "bow_02e": {
+      "textures": "azalea_icons/icontextures/bow_02e"
+    },
+    "bow_02_2": {
+      "textures": "azalea_icons/icontextures/bow_02_2"
+    },
+    "bow_03a": {
+      "textures": "azalea_icons/icontextures/bow_03a"
+    },
+    "bow_03b": {
+      "textures": "azalea_icons/icontextures/bow_03b"
+    },
+    "bow_03c": {
+      "textures": "azalea_icons/icontextures/bow_03c"
+    },
+    "bow_03d": {
+      "textures": "azalea_icons/icontextures/bow_03d"
+    },
+    "bow_03e": {
+      "textures": "azalea_icons/icontextures/bow_03e"
+    },
+    "bread": {
+      "textures": "azalea_icons/icontextures/bread"
+    },
+    "brick": {
+      "textures": "azalea_icons/icontextures/brick"
+    },
+    "brie": {
+      "textures": "azalea_icons/icontextures/brie"
+    },
+    "broken_elytra": {
+      "textures": "azalea_icons/icontextures/broken_elytra"
+    },
+    "brunost": {
+      "textures": "azalea_icons/icontextures/brunost"
+    },
+    "bucheron": {
+      "textures": "azalea_icons/icontextures/bucheron"
+    },
+    "bucket": {
+      "textures": "azalea_icons/icontextures/bucket"
+    },
+    "c3745013ae20a467a128809afcfc2a34": {
+      "textures": "azalea_icons/icontextures/c3745013ae20a467a128809afcfc2a34"
+    },
+    "cabrales": {
+      "textures": "azalea_icons/icontextures/cabrales"
+    },
+    "cake": {
+      "textures": "azalea_icons/icontextures/cake"
+    },
+    "camembert": {
+      "textures": "azalea_icons/icontextures/camembert"
+    },
+    "candle": {
+      "textures": "azalea_icons/icontextures/candle"
+    },
+    "candle_01a": {
+      "textures": "azalea_icons/icontextures/candle_01a"
+    },
+    "candle_01b": {
+      "textures": "azalea_icons/icontextures/candle_01b"
+    },
+    "candy_01a": {
+      "textures": "azalea_icons/icontextures/candy_01a"
+    },
+    "candy_01b": {
+      "textures": "azalea_icons/icontextures/candy_01b"
+    },
+    "candy_01c": {
+      "textures": "azalea_icons/icontextures/candy_01c"
+    },
+    "candy_01d": {
+      "textures": "azalea_icons/icontextures/candy_01d"
+    },
+    "candy_01e": {
+      "textures": "azalea_icons/icontextures/candy_01e"
+    },
+    "candy_01f": {
+      "textures": "azalea_icons/icontextures/candy_01f"
+    },
+    "candy_01g": {
+      "textures": "azalea_icons/icontextures/candy_01g"
+    },
+    "candy_02a": {
+      "textures": "azalea_icons/icontextures/candy_02a"
+    },
+    "candy_02b": {
+      "textures": "azalea_icons/icontextures/candy_02b"
+    },
+    "candy_02c": {
+      "textures": "azalea_icons/icontextures/candy_02c"
+    },
+    "candy_02d": {
+      "textures": "azalea_icons/icontextures/candy_02d"
+    },
+    "candy_02e": {
+      "textures": "azalea_icons/icontextures/candy_02e"
+    },
+    "candy_02f": {
+      "textures": "azalea_icons/icontextures/candy_02f"
+    },
+    "candy_02g": {
+      "textures": "azalea_icons/icontextures/candy_02g"
+    },
+    "caprino": {
+      "textures": "azalea_icons/icontextures/caprino"
+    },
+    "carrot": {
+      "textures": "azalea_icons/icontextures/carrot"
+    },
+    "chain": {
+      "textures": "azalea_icons/icontextures/chain"
+    },
+    "chainmail_boots": {
+      "textures": "azalea_icons/icontextures/chainmail_boots"
+    },
+    "chainmail_chestplate": {
+      "textures": "azalea_icons/icontextures/chainmail_chestplate"
+    },
+    "chainmail_helmet": {
+      "textures": "azalea_icons/icontextures/chainmail_helmet"
+    },
+    "chainmail_leggings": {
+      "textures": "azalea_icons/icontextures/chainmail_leggings"
+    },
+    "charcoal": {
+      "textures": "azalea_icons/icontextures/charcoal"
+    },
+    "cheddar": {
+      "textures": "azalea_icons/icontextures/cheddar"
+    },
+    "cheshire": {
+      "textures": "azalea_icons/icontextures/cheshire"
+    },
+    "chest_minecart": {
+      "textures": "azalea_icons/icontextures/chest_minecart"
+    },
+    "chicken": {
+      "textures": "azalea_icons/icontextures/chicken"
+    },
+    "chorus_fruit": {
+      "textures": "azalea_icons/icontextures/chorus_fruit"
+    },
+    "circlet": {
+      "textures": "azalea_icons/icontextures/circlet"
+    },
+    "circlet_2": {
+      "textures": "azalea_icons/icontextures/circlet_2"
+    },
+    "clay_ball": {
+      "textures": "azalea_icons/icontextures/clay_ball"
+    },
+    "clover_leaf": {
+      "textures": "azalea_icons/icontextures/clover_leaf"
+    },
+    "clover_leaf_2": {
+      "textures": "azalea_icons/icontextures/clover_leaf_2"
+    },
+    "coal": {
+      "textures": "azalea_icons/icontextures/coal"
+    },
+    "cod": {
+      "textures": "azalea_icons/icontextures/cod"
+    },
+    "coin_01a": {
+      "textures": "azalea_icons/icontextures/coin_01a"
+    },
+    "coin_01b": {
+      "textures": "azalea_icons/icontextures/coin_01b"
+    },
+    "coin_01c": {
+      "textures": "azalea_icons/icontextures/coin_01c"
+    },
+    "coin_01d": {
+      "textures": "azalea_icons/icontextures/coin_01d"
+    },
+    "coin_01e": {
+      "textures": "azalea_icons/icontextures/coin_01e"
+    },
+    "coin_02a": {
+      "textures": "azalea_icons/icontextures/coin_02a"
+    },
+    "coin_02b": {
+      "textures": "azalea_icons/icontextures/coin_02b"
+    },
+    "coin_02c": {
+      "textures": "azalea_icons/icontextures/coin_02c"
+    },
+    "coin_02d": {
+      "textures": "azalea_icons/icontextures/coin_02d"
+    },
+    "coin_02e": {
+      "textures": "azalea_icons/icontextures/coin_02e"
+    },
+    "coin_03a": {
+      "textures": "azalea_icons/icontextures/coin_03a"
+    },
+    "coin_03b": {
+      "textures": "azalea_icons/icontextures/coin_03b"
+    },
+    "coin_03c": {
+      "textures": "azalea_icons/icontextures/coin_03c"
+    },
+    "coin_03d": {
+      "textures": "azalea_icons/icontextures/coin_03d"
+    },
+    "coin_03e": {
+      "textures": "azalea_icons/icontextures/coin_03e"
+    },
+    "coin_04a": {
+      "textures": "azalea_icons/icontextures/coin_04a"
+    },
+    "coin_04b": {
+      "textures": "azalea_icons/icontextures/coin_04b"
+    },
+    "coin_04c": {
+      "textures": "azalea_icons/icontextures/coin_04c"
+    },
+    "coin_04d": {
+      "textures": "azalea_icons/icontextures/coin_04d"
+    },
+    "coin_04e": {
+      "textures": "azalea_icons/icontextures/coin_04e"
+    },
+    "coin_05a": {
+      "textures": "azalea_icons/icontextures/coin_05a"
+    },
+    "coin_05b": {
+      "textures": "azalea_icons/icontextures/coin_05b"
+    },
+    "coin_05c": {
+      "textures": "azalea_icons/icontextures/coin_05c"
+    },
+    "coin_05d": {
+      "textures": "azalea_icons/icontextures/coin_05d"
+    },
+    "coin_05e": {
+      "textures": "azalea_icons/icontextures/coin_05e"
+    },
+    "colby_jack": {
+      "textures": "azalea_icons/icontextures/colby_jack"
+    },
+    "compass": {
+      "textures": "azalea_icons/icontextures/compass"
+    },
+    "compass_00": {
+      "textures": "azalea_icons/icontextures/compass_00"
+    },
+    "compass_2": {
+      "textures": "azalea_icons/icontextures/compass_2"
+    },
+    "comte": {
+      "textures": "azalea_icons/icontextures/comte"
+    },
+    "cooked_beef": {
+      "textures": "azalea_icons/icontextures/cooked_beef"
+    },
+    "cooked_chicken": {
+      "textures": "azalea_icons/icontextures/cooked_chicken"
+    },
+    "cooked_cod": {
+      "textures": "azalea_icons/icontextures/cooked_cod"
+    },
+    "cooked_mutton": {
+      "textures": "azalea_icons/icontextures/cooked_mutton"
+    },
+    "cooked_porkchop": {
+      "textures": "azalea_icons/icontextures/cooked_porkchop"
+    },
+    "cooked_rabbit": {
+      "textures": "azalea_icons/icontextures/cooked_rabbit"
+    },
+    "cooked_salmon": {
+      "textures": "azalea_icons/icontextures/cooked_salmon"
+    },
+    "cookie": {
+      "textures": "azalea_icons/icontextures/cookie"
+    },
+    "cookies": {
+      "textures": "azalea_icons/icontextures/cookies"
+    },
+    "cookies_2": {
+      "textures": "azalea_icons/icontextures/cookies_2"
+    },
+    "cookie_01a": {
+      "textures": "azalea_icons/icontextures/cookie_01a"
+    },
+    "copper_ingot": {
+      "textures": "azalea_icons/icontextures/copper_ingot"
+    },
+    "copper_ingot_2": {
+      "textures": "azalea_icons/icontextures/copper_ingot_2"
+    },
+    "copper_ore": {
+      "textures": "azalea_icons/icontextures/copper_ore"
+    },
+    "copper_ore_2": {
+      "textures": "azalea_icons/icontextures/copper_ore_2"
+    },
+    "cotton_01a": {
+      "textures": "azalea_icons/icontextures/cotton_01a"
+    },
+    "crossbow_standby": {
+      "textures": "azalea_icons/icontextures/crossbow_standby"
+    },
+    "crottin_de_chavignol": {
+      "textures": "azalea_icons/icontextures/crottin_de_chavignol"
+    },
+    "crystal_01a": {
+      "textures": "azalea_icons/icontextures/crystal_01a"
+    },
+    "crystal_01b": {
+      "textures": "azalea_icons/icontextures/crystal_01b"
+    },
+    "crystal_01c": {
+      "textures": "azalea_icons/icontextures/crystal_01c"
+    },
+    "crystal_01d": {
+      "textures": "azalea_icons/icontextures/crystal_01d"
+    },
+    "crystal_01e": {
+      "textures": "azalea_icons/icontextures/crystal_01e"
+    },
+    "crystal_01f": {
+      "textures": "azalea_icons/icontextures/crystal_01f"
+    },
+    "crystal_01g": {
+      "textures": "azalea_icons/icontextures/crystal_01g"
+    },
+    "crystal_01h": {
+      "textures": "azalea_icons/icontextures/crystal_01h"
+    },
+    "crystal_01i": {
+      "textures": "azalea_icons/icontextures/crystal_01i"
+    },
+    "crystal_01j": {
+      "textures": "azalea_icons/icontextures/crystal_01j"
+    },
+    "cup_01a": {
+      "textures": "azalea_icons/icontextures/cup_01a"
+    },
+    "cup_01b": {
+      "textures": "azalea_icons/icontextures/cup_01b"
+    },
+    "cup_02a": {
+      "textures": "azalea_icons/icontextures/cup_02a"
+    },
+    "cup_02b": {
+      "textures": "azalea_icons/icontextures/cup_02b"
+    },
+    "diamond": {
+      "textures": "azalea_icons/icontextures/diamond"
+    },
+    "diamond_axe": {
+      "textures": "azalea_icons/icontextures/diamond_axe"
+    },
+    "diamond_boots": {
+      "textures": "azalea_icons/icontextures/diamond_boots"
+    },
+    "diamond_chestplate": {
+      "textures": "azalea_icons/icontextures/diamond_chestplate"
+    },
+    "diamond_helmet": {
+      "textures": "azalea_icons/icontextures/diamond_helmet"
+    },
+    "diamond_hoe": {
+      "textures": "azalea_icons/icontextures/diamond_hoe"
+    },
+    "diamond_horse_armor": {
+      "textures": "azalea_icons/icontextures/diamond_horse_armor"
+    },
+    "diamond_leggings": {
+      "textures": "azalea_icons/icontextures/diamond_leggings"
+    },
+    "diamond_pickaxe": {
+      "textures": "azalea_icons/icontextures/diamond_pickaxe"
+    },
+    "diamond_shovel": {
+      "textures": "azalea_icons/icontextures/diamond_shovel"
+    },
+    "diamond_sword": {
+      "textures": "azalea_icons/icontextures/diamond_sword"
+    },
+    "dorset_blue_vinny": {
+      "textures": "azalea_icons/icontextures/dorset_blue_vinny"
+    },
+    "dried_kelp": {
+      "textures": "azalea_icons/icontextures/dried_kelp"
+    },
+    "egg": {
+      "textures": "azalea_icons/icontextures/egg"
+    },
+    "elytra": {
+      "textures": "azalea_icons/icontextures/elytra"
+    },
+    "emerald": {
+      "textures": "azalea_icons/icontextures/emerald"
+    },
+    "emmentaler": {
+      "textures": "azalea_icons/icontextures/emmentaler"
+    },
+    "enchanted_book": {
+      "textures": "azalea_icons/icontextures/enchanted_book"
+    },
+    "ender_eye": {
+      "textures": "azalea_icons/icontextures/ender_eye"
+    },
+    "ender_pearl": {
+      "textures": "azalea_icons/icontextures/ender_pearl"
+    },
+    "experience_bottle": {
+      "textures": "azalea_icons/icontextures/experience_bottle"
+    },
+    "fablic_clothe": {
+      "textures": "azalea_icons/icontextures/fablic_clothe"
+    },
+    "fablic_clothe_2": {
+      "textures": "azalea_icons/icontextures/fablic_clothe_2"
+    },
+    "fabric": {
+      "textures": "azalea_icons/icontextures/fabric"
+    },
+    "fabric_2": {
+      "textures": "azalea_icons/icontextures/fabric_2"
+    },
+    "feather": {
+      "textures": "azalea_icons/icontextures/feather"
+    },
+    "feather_a": {
+      "textures": "azalea_icons/icontextures/feather_a"
+    },
+    "feather_a_2": {
+      "textures": "azalea_icons/icontextures/feather_a_2"
+    },
+    "fermented_spider_eye": {
+      "textures": "azalea_icons/icontextures/fermented_spider_eye"
+    },
+    "feta": {
+      "textures": "azalea_icons/icontextures/feta"
+    },
+    "firework_rocket": {
+      "textures": "azalea_icons/icontextures/firework_rocket"
+    },
+    "fire_charge": {
+      "textures": "azalea_icons/icontextures/fire_charge"
+    },
+    "fish_01a": {
+      "textures": "azalea_icons/icontextures/fish_01a"
+    },
+    "fish_01b": {
+      "textures": "azalea_icons/icontextures/fish_01b"
+    },
+    "fish_01c": {
+      "textures": "azalea_icons/icontextures/fish_01c"
+    },
+    "fish_01d": {
+      "textures": "azalea_icons/icontextures/fish_01d"
+    },
+    "fish_01e": {
+      "textures": "azalea_icons/icontextures/fish_01e"
+    },
+    "fish_a": {
+      "textures": "azalea_icons/icontextures/fish_a"
+    },
+    "fish_a_2": {
+      "textures": "azalea_icons/icontextures/fish_a_2"
+    },
+    "flint": {
+      "textures": "azalea_icons/icontextures/flint"
+    },
+    "flint_and_steel": {
+      "textures": "azalea_icons/icontextures/flint_and_steel"
+    },
+    "flower_01a": {
+      "textures": "azalea_icons/icontextures/flower_01a"
+    },
+    "flower_02a": {
+      "textures": "azalea_icons/icontextures/flower_02a"
+    },
+    "flower_pot": {
+      "textures": "azalea_icons/icontextures/flower_pot"
+    },
+    "fontina": {
+      "textures": "azalea_icons/icontextures/fontina"
+    },
+    "fromage_frais": {
+      "textures": "azalea_icons/icontextures/fromage_frais"
+    },
+    "fruit_01a": {
+      "textures": "azalea_icons/icontextures/fruit_01a"
+    },
+    "fruit_01b": {
+      "textures": "azalea_icons/icontextures/fruit_01b"
+    },
+    "fur_a": {
+      "textures": "azalea_icons/icontextures/fur_a"
+    },
+    "fur_a_2": {
+      "textures": "azalea_icons/icontextures/fur_a_2"
+    },
+    "gem_01a": {
+      "textures": "azalea_icons/icontextures/gem_01a"
+    },
+    "gem_01b": {
+      "textures": "azalea_icons/icontextures/gem_01b"
+    },
+    "gem_01c": {
+      "textures": "azalea_icons/icontextures/gem_01c"
+    },
+    "gem_01d": {
+      "textures": "azalea_icons/icontextures/gem_01d"
+    },
+    "gem_01e": {
+      "textures": "azalea_icons/icontextures/gem_01e"
+    },
+    "gem_01f": {
+      "textures": "azalea_icons/icontextures/gem_01f"
+    },
+    "gem_01g": {
+      "textures": "azalea_icons/icontextures/gem_01g"
+    },
+    "gem_01h": {
+      "textures": "azalea_icons/icontextures/gem_01h"
+    },
+    "gem_01i": {
+      "textures": "azalea_icons/icontextures/gem_01i"
+    },
+    "gem_01j": {
+      "textures": "azalea_icons/icontextures/gem_01j"
+    },
+    "ghast_tear": {
+      "textures": "azalea_icons/icontextures/ghast_tear"
+    },
+    "giftopen_01a": {
+      "textures": "azalea_icons/icontextures/giftopen_01a"
+    },
+    "giftopen_01b": {
+      "textures": "azalea_icons/icontextures/giftopen_01b"
+    },
+    "giftopen_01c": {
+      "textures": "azalea_icons/icontextures/giftopen_01c"
+    },
+    "giftopen_01d": {
+      "textures": "azalea_icons/icontextures/giftopen_01d"
+    },
+    "giftopen_01e": {
+      "textures": "azalea_icons/icontextures/giftopen_01e"
+    },
+    "giftopen_01f": {
+      "textures": "azalea_icons/icontextures/giftopen_01f"
+    },
+    "gift_01a": {
+      "textures": "azalea_icons/icontextures/gift_01a"
+    },
+    "gift_01b": {
+      "textures": "azalea_icons/icontextures/gift_01b"
+    },
+    "gift_01c": {
+      "textures": "azalea_icons/icontextures/gift_01c"
+    },
+    "gift_01d": {
+      "textures": "azalea_icons/icontextures/gift_01d"
+    },
+    "gift_01e": {
+      "textures": "azalea_icons/icontextures/gift_01e"
+    },
+    "gift_01f": {
+      "textures": "azalea_icons/icontextures/gift_01f"
+    },
+    "glasses": {
+      "textures": "azalea_icons/icontextures/glasses"
+    },
+    "glasses_2": {
+      "textures": "azalea_icons/icontextures/glasses_2"
+    },
+    "glass_bottle": {
+      "textures": "azalea_icons/icontextures/glass_bottle"
+    },
+    "glistering_melon_slice": {
+      "textures": "azalea_icons/icontextures/glistering_melon_slice"
+    },
+    "gloves_01a": {
+      "textures": "azalea_icons/icontextures/gloves_01a"
+    },
+    "gloves_01b": {
+      "textures": "azalea_icons/icontextures/gloves_01b"
+    },
+    "gloves_01c": {
+      "textures": "azalea_icons/icontextures/gloves_01c"
+    },
+    "gloves_01d": {
+      "textures": "azalea_icons/icontextures/gloves_01d"
+    },
+    "gloves_01e": {
+      "textures": "azalea_icons/icontextures/gloves_01e"
+    },
+    "glove_01": {
+      "textures": "azalea_icons/icontextures/glove_01"
+    },
+    "glove_01_2": {
+      "textures": "azalea_icons/icontextures/glove_01_2"
+    },
+    "glove_02": {
+      "textures": "azalea_icons/icontextures/glove_02"
+    },
+    "glove_02_2": {
+      "textures": "azalea_icons/icontextures/glove_02_2"
+    },
+    "glowing_dust": {
+      "textures": "azalea_icons/icontextures/glowing_dust"
+    },
+    "glowing_dust_2": {
+      "textures": "azalea_icons/icontextures/glowing_dust_2"
+    },
+    "glow_berries": {
+      "textures": "azalea_icons/icontextures/glow_berries"
+    },
+    "glow_ink_sac": {
+      "textures": "azalea_icons/icontextures/glow_ink_sac"
+    },
+    "golden_apple": {
+      "textures": "azalea_icons/icontextures/golden_apple"
+    },
+    "golden_axe": {
+      "textures": "azalea_icons/icontextures/golden_axe"
+    },
+    "golden_boots": {
+      "textures": "azalea_icons/icontextures/golden_boots"
+    },
+    "golden_carrot": {
+      "textures": "azalea_icons/icontextures/golden_carrot"
+    },
+    "golden_chestplate": {
+      "textures": "azalea_icons/icontextures/golden_chestplate"
+    },
+    "golden_helmet": {
+      "textures": "azalea_icons/icontextures/golden_helmet"
+    },
+    "golden_hoe": {
+      "textures": "azalea_icons/icontextures/golden_hoe"
+    },
+    "golden_horse_armor": {
+      "textures": "azalea_icons/icontextures/golden_horse_armor"
+    },
+    "golden_leggings": {
+      "textures": "azalea_icons/icontextures/golden_leggings"
+    },
+    "golden_pickaxe": {
+      "textures": "azalea_icons/icontextures/golden_pickaxe"
+    },
+    "golden_shovel": {
+      "textures": "azalea_icons/icontextures/golden_shovel"
+    },
+    "golden_sword": {
+      "textures": "azalea_icons/icontextures/golden_sword"
+    },
+    "gold_ingot": {
+      "textures": "azalea_icons/icontextures/gold_ingot"
+    },
+    "gold_ingot_2": {
+      "textures": "azalea_icons/icontextures/gold_ingot_2"
+    },
+    "gold_nugget": {
+      "textures": "azalea_icons/icontextures/gold_nugget"
+    },
+    "gold_ore": {
+      "textures": "azalea_icons/icontextures/gold_ore"
+    },
+    "gold_ore_2": {
+      "textures": "azalea_icons/icontextures/gold_ore_2"
+    },
+    "gorgonzola": {
+      "textures": "azalea_icons/icontextures/gorgonzola"
+    },
+    "gouda": {
+      "textures": "azalea_icons/icontextures/gouda"
+    },
+    "grasp": {
+      "textures": "azalea_icons/icontextures/grasp"
+    },
+    "green_mushroom": {
+      "textures": "azalea_icons/icontextures/green_mushroom"
+    },
+    "green_mushroom_2": {
+      "textures": "azalea_icons/icontextures/green_mushroom_2"
+    },
+    "gruyere": {
+      "textures": "azalea_icons/icontextures/gruyere"
+    },
+    "gunpowder": {
+      "textures": "azalea_icons/icontextures/gunpowder"
+    },
+    "halloumi": {
+      "textures": "azalea_icons/icontextures/halloumi"
+    },
+    "hat_01a": {
+      "textures": "azalea_icons/icontextures/hat_01a"
+    },
+    "hat_01b": {
+      "textures": "azalea_icons/icontextures/hat_01b"
+    },
+    "hat_01c": {
+      "textures": "azalea_icons/icontextures/hat_01c"
+    },
+    "hat_01d": {
+      "textures": "azalea_icons/icontextures/hat_01d"
+    },
+    "hat_01e": {
+      "textures": "azalea_icons/icontextures/hat_01e"
+    },
+    "hat_01f": {
+      "textures": "azalea_icons/icontextures/hat_01f"
+    },
+    "headgear_01": {
+      "textures": "azalea_icons/icontextures/headgear_01"
+    },
+    "headgear_01_2": {
+      "textures": "azalea_icons/icontextures/headgear_01_2"
+    },
+    "headgear_02": {
+      "textures": "azalea_icons/icontextures/headgear_02"
+    },
+    "headgear_02_2": {
+      "textures": "azalea_icons/icontextures/headgear_02_2"
+    },
+    "heart_of_the_sea": {
+      "textures": "azalea_icons/icontextures/heart_of_the_sea"
+    },
+    "helmet_01a": {
+      "textures": "azalea_icons/icontextures/helmet_01a"
+    },
+    "helmet_01b": {
+      "textures": "azalea_icons/icontextures/helmet_01b"
+    },
+    "helmet_01c": {
+      "textures": "azalea_icons/icontextures/helmet_01c"
+    },
+    "helmet_01d": {
+      "textures": "azalea_icons/icontextures/helmet_01d"
+    },
+    "helmet_01e": {
+      "textures": "azalea_icons/icontextures/helmet_01e"
+    },
+    "helmet_02a": {
+      "textures": "azalea_icons/icontextures/helmet_02a"
+    },
+    "helmet_02b": {
+      "textures": "azalea_icons/icontextures/helmet_02b"
+    },
+    "helmet_02c": {
+      "textures": "azalea_icons/icontextures/helmet_02c"
+    },
+    "helmet_02d": {
+      "textures": "azalea_icons/icontextures/helmet_02d"
+    },
+    "helmet_02e": {
+      "textures": "azalea_icons/icontextures/helmet_02e"
+    },
+    "herb": {
+      "textures": "azalea_icons/icontextures/herb"
+    },
+    "herb_2": {
+      "textures": "azalea_icons/icontextures/herb_2"
+    },
+    "hi_quality_pickaxe": {
+      "textures": "azalea_icons/icontextures/hi_quality_pickaxe"
+    },
+    "hi_quality_pickaxe_2": {
+      "textures": "azalea_icons/icontextures/hi_quality_pickaxe_2"
+    },
+    "hi_quality_scethe": {
+      "textures": "azalea_icons/icontextures/hi_quality_scethe"
+    },
+    "hi_quality_scethe_2": {
+      "textures": "azalea_icons/icontextures/hi_quality_scethe_2"
+    },
+    "hoe": {
+      "textures": "azalea_icons/icontextures/hoe"
+    },
+    "hoe_2": {
+      "textures": "azalea_icons/icontextures/hoe_2"
+    },
+    "honeycomb": {
+      "textures": "azalea_icons/icontextures/honeycomb"
+    },
+    "honey_bottle": {
+      "textures": "azalea_icons/icontextures/honey_bottle"
+    },
+    "hopper": {
+      "textures": "azalea_icons/icontextures/hopper"
+    },
+    "hp_potion": {
+      "textures": "azalea_icons/icontextures/hp_potion"
+    },
+    "hp_potion_2": {
+      "textures": "azalea_icons/icontextures/hp_potion_2"
+    },
+    "ingot_01a": {
+      "textures": "azalea_icons/icontextures/ingot_01a"
+    },
+    "ingot_01b": {
+      "textures": "azalea_icons/icontextures/ingot_01b"
+    },
+    "ingot_01c": {
+      "textures": "azalea_icons/icontextures/ingot_01c"
+    },
+    "ingot_01d": {
+      "textures": "azalea_icons/icontextures/ingot_01d"
+    },
+    "ingot_01e": {
+      "textures": "azalea_icons/icontextures/ingot_01e"
+    },
+    "ink_sac": {
+      "textures": "azalea_icons/icontextures/ink_sac"
+    },
+    "iron_armor": {
+      "textures": "azalea_icons/icontextures/iron_armor"
+    },
+    "iron_armor_2": {
+      "textures": "azalea_icons/icontextures/iron_armor_2"
+    },
+    "iron_axe": {
+      "textures": "azalea_icons/icontextures/iron_axe"
+    },
+    "iron_boots": {
+      "textures": "azalea_icons/icontextures/iron_boots"
+    },
+    "iron_chestplate": {
+      "textures": "azalea_icons/icontextures/iron_chestplate"
+    },
+    "iron_helmet": {
+      "textures": "azalea_icons/icontextures/iron_helmet"
+    },
+    "iron_hoe": {
+      "textures": "azalea_icons/icontextures/iron_hoe"
+    },
+    "iron_horse_armor": {
+      "textures": "azalea_icons/icontextures/iron_horse_armor"
+    },
+    "iron_ingot": {
+      "textures": "azalea_icons/icontextures/iron_ingot"
+    },
+    "iron_ingot_2": {
+      "textures": "azalea_icons/icontextures/iron_ingot_2"
+    },
+    "iron_leggings": {
+      "textures": "azalea_icons/icontextures/iron_leggings"
+    },
+    "iron_nugget": {
+      "textures": "azalea_icons/icontextures/iron_nugget"
+    },
+    "iron_ore": {
+      "textures": "azalea_icons/icontextures/iron_ore"
+    },
+    "iron_ore_2": {
+      "textures": "azalea_icons/icontextures/iron_ore_2"
+    },
+    "iron_pickaxe": {
+      "textures": "azalea_icons/icontextures/iron_pickaxe"
+    },
+    "iron_shovel": {
+      "textures": "azalea_icons/icontextures/iron_shovel"
+    },
+    "iron_sword": {
+      "textures": "azalea_icons/icontextures/iron_sword"
+    },
+    "kelp": {
+      "textures": "azalea_icons/icontextures/kelp"
+    },
+    "key_01a": {
+      "textures": "azalea_icons/icontextures/key_01a"
+    },
+    "key_01b": {
+      "textures": "azalea_icons/icontextures/key_01b"
+    },
+    "key_01c": {
+      "textures": "azalea_icons/icontextures/key_01c"
+    },
+    "key_01d": {
+      "textures": "azalea_icons/icontextures/key_01d"
+    },
+    "key_01e": {
+      "textures": "azalea_icons/icontextures/key_01e"
+    },
+    "key_02a": {
+      "textures": "azalea_icons/icontextures/key_02a"
+    },
+    "key_02b": {
+      "textures": "azalea_icons/icontextures/key_02b"
+    },
+    "key_02c": {
+      "textures": "azalea_icons/icontextures/key_02c"
+    },
+    "key_02d": {
+      "textures": "azalea_icons/icontextures/key_02d"
+    },
+    "key_02e": {
+      "textures": "azalea_icons/icontextures/key_02e"
+    },
+    "lantern": {
+      "textures": "azalea_icons/icontextures/lantern"
+    },
+    "lapis_lazuli": {
+      "textures": "azalea_icons/icontextures/lapis_lazuli"
+    },
+    "lava_bucket": {
+      "textures": "azalea_icons/icontextures/lava_bucket"
+    },
+    "leaf_01a": {
+      "textures": "azalea_icons/icontextures/leaf_01a"
+    },
+    "leather": {
+      "textures": "azalea_icons/icontextures/leather"
+    },
+    "leather_armor": {
+      "textures": "azalea_icons/icontextures/leather_armor"
+    },
+    "leather_armor_2": {
+      "textures": "azalea_icons/icontextures/leather_armor_2"
+    },
+    "leather_arm_guard": {
+      "textures": "azalea_icons/icontextures/leather_arm_guard"
+    },
+    "leather_arm_guard_2": {
+      "textures": "azalea_icons/icontextures/leather_arm_guard_2"
+    },
+    "leather_boots": {
+      "textures": "azalea_icons/icontextures/leather_boots"
+    },
+    "leather_boots_01": {
+      "textures": "azalea_icons/icontextures/leather_boots_01"
+    },
+    "leather_boots_01_2": {
+      "textures": "azalea_icons/icontextures/leather_boots_01_2"
+    },
+    "leather_boots_02": {
+      "textures": "azalea_icons/icontextures/leather_boots_02"
+    },
+    "leather_boots_02_2": {
+      "textures": "azalea_icons/icontextures/leather_boots_02_2"
+    },
+    "leather_boots_overlay": {
+      "textures": "azalea_icons/icontextures/leather_boots_overlay"
+    },
+    "leather_chestplate": {
+      "textures": "azalea_icons/icontextures/leather_chestplate"
+    },
+    "leather_glove": {
+      "textures": "azalea_icons/icontextures/leather_glove"
+    },
+    "leather_glove_2": {
+      "textures": "azalea_icons/icontextures/leather_glove_2"
+    },
+    "leather_helmet": {
+      "textures": "azalea_icons/icontextures/leather_helmet"
+    },
+    "leather_horse_armor": {
+      "textures": "azalea_icons/icontextures/leather_horse_armor"
+    },
+    "leather_leggings": {
+      "textures": "azalea_icons/icontextures/leather_leggings"
+    },
+    "limburger": {
+      "textures": "azalea_icons/icontextures/limburger"
+    },
+    "log": {
+      "textures": "azalea_icons/icontextures/log"
+    },
+    "log_2": {
+      "textures": "azalea_icons/icontextures/log_2"
+    },
+    "maasdam": {
+      "textures": "azalea_icons/icontextures/maasdam"
+    },
+    "magma_cream": {
+      "textures": "azalea_icons/icontextures/magma_cream"
+    },
+    "mana_potion": {
+      "textures": "azalea_icons/icontextures/mana_potion"
+    },
+    "mana_potion_2": {
+      "textures": "azalea_icons/icontextures/mana_potion_2"
+    },
+    "manchego": {
+      "textures": "azalea_icons/icontextures/manchego"
+    },
+    "mantua": {
+      "textures": "azalea_icons/icontextures/mantua"
+    },
+    "mantua_2": {
+      "textures": "azalea_icons/icontextures/mantua_2"
+    },
+    "map": {
+      "textures": "azalea_icons/icontextures/map"
+    },
+    "mascarpone": {
+      "textures": "azalea_icons/icontextures/mascarpone"
+    },
+    "meat": {
+      "textures": "azalea_icons/icontextures/meat"
+    },
+    "meat_2": {
+      "textures": "azalea_icons/icontextures/meat_2"
+    },
+    "melon_slice": {
+      "textures": "azalea_icons/icontextures/melon_slice"
+    },
+    "milk_bucket": {
+      "textures": "azalea_icons/icontextures/milk_bucket"
+    },
+    "mimolette": {
+      "textures": "azalea_icons/icontextures/mimolette"
+    },
+    "montasio": {
+      "textures": "azalea_icons/icontextures/montasio"
+    },
+    "muenster": {
+      "textures": "azalea_icons/icontextures/muenster"
+    },
+    "mutton": {
+      "textures": "azalea_icons/icontextures/mutton"
+    },
+    "myzithra": {
+      "textures": "azalea_icons/icontextures/myzithra"
+    },
+    "name_tag": {
+      "textures": "azalea_icons/icontextures/name_tag"
+    },
+    "nautilus_shell": {
+      "textures": "azalea_icons/icontextures/nautilus_shell"
+    },
+    "necklace_01": {
+      "textures": "azalea_icons/icontextures/necklace_01"
+    },
+    "necklace_01a": {
+      "textures": "azalea_icons/icontextures/necklace_01a"
+    },
+    "necklace_01b": {
+      "textures": "azalea_icons/icontextures/necklace_01b"
+    },
+    "necklace_01c": {
+      "textures": "azalea_icons/icontextures/necklace_01c"
+    },
+    "necklace_01d": {
+      "textures": "azalea_icons/icontextures/necklace_01d"
+    },
+    "necklace_01e": {
+      "textures": "azalea_icons/icontextures/necklace_01e"
+    },
+    "necklace_01_2": {
+      "textures": "azalea_icons/icontextures/necklace_01_2"
+    },
+    "necklace_02": {
+      "textures": "azalea_icons/icontextures/necklace_02"
+    },
+    "necklace_02a": {
+      "textures": "azalea_icons/icontextures/necklace_02a"
+    },
+    "necklace_02b": {
+      "textures": "azalea_icons/icontextures/necklace_02b"
+    },
+    "necklace_02c": {
+      "textures": "azalea_icons/icontextures/necklace_02c"
+    },
+    "necklace_02d": {
+      "textures": "azalea_icons/icontextures/necklace_02d"
+    },
+    "necklace_02e": {
+      "textures": "azalea_icons/icontextures/necklace_02e"
+    },
+    "necklace_02_2": {
+      "textures": "azalea_icons/icontextures/necklace_02_2"
+    },
+    "necklace_03a": {
+      "textures": "azalea_icons/icontextures/necklace_03a"
+    },
+    "necklace_03b": {
+      "textures": "azalea_icons/icontextures/necklace_03b"
+    },
+    "necklace_03c": {
+      "textures": "azalea_icons/icontextures/necklace_03c"
+    },
+    "necklace_03d": {
+      "textures": "azalea_icons/icontextures/necklace_03d"
+    },
+    "necklace_03e": {
+      "textures": "azalea_icons/icontextures/necklace_03e"
+    },
+    "netherite_axe": {
+      "textures": "azalea_icons/icontextures/netherite_axe"
+    },
+    "netherite_boots": {
+      "textures": "azalea_icons/icontextures/netherite_boots"
+    },
+    "netherite_chestplate": {
+      "textures": "azalea_icons/icontextures/netherite_chestplate"
+    },
+    "netherite_helmet": {
+      "textures": "azalea_icons/icontextures/netherite_helmet"
+    },
+    "netherite_hoe": {
+      "textures": "azalea_icons/icontextures/netherite_hoe"
+    },
+    "netherite_ingot": {
+      "textures": "azalea_icons/icontextures/netherite_ingot"
+    },
+    "netherite_leggings": {
+      "textures": "azalea_icons/icontextures/netherite_leggings"
+    },
+    "netherite_pickaxe": {
+      "textures": "azalea_icons/icontextures/netherite_pickaxe"
+    },
+    "netherite_scrap": {
+      "textures": "azalea_icons/icontextures/netherite_scrap"
+    },
+    "netherite_shovel": {
+      "textures": "azalea_icons/icontextures/netherite_shovel"
+    },
+    "netherite_sword": {
+      "textures": "azalea_icons/icontextures/netherite_sword"
+    },
+    "nether_brick": {
+      "textures": "azalea_icons/icontextures/nether_brick"
+    },
+    "nether_star": {
+      "textures": "azalea_icons/icontextures/nether_star"
+    },
+    "nether_wart": {
+      "textures": "azalea_icons/icontextures/nether_wart"
+    },
+    "oaxaca_cheese": {
+      "textures": "azalea_icons/icontextures/oaxaca_cheese"
+    },
+    "onigiri": {
+      "textures": "azalea_icons/icontextures/onigiri"
+    },
+    "onigiri_2": {
+      "textures": "azalea_icons/icontextures/onigiri_2"
+    },
+    "paneer": {
+      "textures": "azalea_icons/icontextures/paneer"
+    },
+    "paper": {
+      "textures": "azalea_icons/icontextures/paper"
+    },
+    "parmesan": {
+      "textures": "azalea_icons/icontextures/parmesan"
+    },
+    "parmigiano_reggiano": {
+      "textures": "azalea_icons/icontextures/parmigiano_reggiano"
+    },
+    "paski_sir": {
+      "textures": "azalea_icons/icontextures/paski_sir"
+    },
+    "pearl_01a": {
+      "textures": "azalea_icons/icontextures/pearl_01a"
+    },
+    "pearl_01b": {
+      "textures": "azalea_icons/icontextures/pearl_01b"
+    },
+    "pearl_01c": {
+      "textures": "azalea_icons/icontextures/pearl_01c"
+    },
+    "pearl_01d": {
+      "textures": "azalea_icons/icontextures/pearl_01d"
+    },
+    "pearl_01e": {
+      "textures": "azalea_icons/icontextures/pearl_01e"
+    },
+    "pecorino_romano": {
+      "textures": "azalea_icons/icontextures/pecorino_romano"
+    },
+    "phantom_membrane": {
+      "textures": "azalea_icons/icontextures/phantom_membrane"
+    },
+    "plank_01a": {
+      "textures": "azalea_icons/icontextures/plank_01a"
+    },
+    "popped_chorus_fruit": {
+      "textures": "azalea_icons/icontextures/popped_chorus_fruit"
+    },
+    "porkchop": {
+      "textures": "azalea_icons/icontextures/porkchop"
+    },
+    "potato": {
+      "textures": "azalea_icons/icontextures/potato"
+    },
+    "potion": {
+      "textures": "azalea_icons/icontextures/potion"
+    },
+    "potion_01a": {
+      "textures": "azalea_icons/icontextures/potion_01a"
+    },
+    "potion_01b": {
+      "textures": "azalea_icons/icontextures/potion_01b"
+    },
+    "potion_01c": {
+      "textures": "azalea_icons/icontextures/potion_01c"
+    },
+    "potion_01d": {
+      "textures": "azalea_icons/icontextures/potion_01d"
+    },
+    "potion_01e": {
+      "textures": "azalea_icons/icontextures/potion_01e"
+    },
+    "potion_01f": {
+      "textures": "azalea_icons/icontextures/potion_01f"
+    },
+    "potion_01g": {
+      "textures": "azalea_icons/icontextures/potion_01g"
+    },
+    "potion_01h": {
+      "textures": "azalea_icons/icontextures/potion_01h"
+    },
+    "potion_02a": {
+      "textures": "azalea_icons/icontextures/potion_02a"
+    },
+    "potion_02b": {
+      "textures": "azalea_icons/icontextures/potion_02b"
+    },
+    "potion_02c": {
+      "textures": "azalea_icons/icontextures/potion_02c"
+    },
+    "potion_02d": {
+      "textures": "azalea_icons/icontextures/potion_02d"
+    },
+    "potion_02e": {
+      "textures": "azalea_icons/icontextures/potion_02e"
+    },
+    "potion_02f": {
+      "textures": "azalea_icons/icontextures/potion_02f"
+    },
+    "potion_02g": {
+      "textures": "azalea_icons/icontextures/potion_02g"
+    },
+    "potion_02h": {
+      "textures": "azalea_icons/icontextures/potion_02h"
+    },
+    "potion_03a": {
+      "textures": "azalea_icons/icontextures/potion_03a"
+    },
+    "potion_03b": {
+      "textures": "azalea_icons/icontextures/potion_03b"
+    },
+    "potion_03c": {
+      "textures": "azalea_icons/icontextures/potion_03c"
+    },
+    "potion_03d": {
+      "textures": "azalea_icons/icontextures/potion_03d"
+    },
+    "potion_03e": {
+      "textures": "azalea_icons/icontextures/potion_03e"
+    },
+    "potion_03f": {
+      "textures": "azalea_icons/icontextures/potion_03f"
+    },
+    "potion_03g": {
+      "textures": "azalea_icons/icontextures/potion_03g"
+    },
+    "potion_03h": {
+      "textures": "azalea_icons/icontextures/potion_03h"
+    },
+    "pouch": {
+      "textures": "azalea_icons/icontextures/pouch"
+    },
+    "pouch_2": {
+      "textures": "azalea_icons/icontextures/pouch_2"
+    },
+    "powder_snow_bucket": {
+      "textures": "azalea_icons/icontextures/powder_snow_bucket"
+    },
+    "prismarine_crystals": {
+      "textures": "azalea_icons/icontextures/prismarine_crystals"
+    },
+    "prismarine_shard": {
+      "textures": "azalea_icons/icontextures/prismarine_shard"
+    },
+    "provolone": {
+      "textures": "azalea_icons/icontextures/provolone"
+    },
+    "pufferfish": {
+      "textures": "azalea_icons/icontextures/pufferfish"
+    },
+    "pufferfish_bucket": {
+      "textures": "azalea_icons/icontextures/pufferfish_bucket"
+    },
+    "pumpkin_pie": {
+      "textures": "azalea_icons/icontextures/pumpkin_pie"
+    },
+    "quartz": {
+      "textures": "azalea_icons/icontextures/quartz"
+    },
+    "quiver": {
+      "textures": "azalea_icons/icontextures/quiver"
+    },
+    "quiver_2": {
+      "textures": "azalea_icons/icontextures/quiver_2"
+    },
+    "rabbit": {
+      "textures": "azalea_icons/icontextures/rabbit"
+    },
+    "raw_copper": {
+      "textures": "azalea_icons/icontextures/raw_copper"
+    },
+    "raw_gold": {
+      "textures": "azalea_icons/icontextures/raw_gold"
+    },
+    "raw_iron": {
+      "textures": "azalea_icons/icontextures/raw_iron"
+    },
+    "reblochon": {
+      "textures": "azalea_icons/icontextures/reblochon"
+    },
+    "redstone": {
+      "textures": "azalea_icons/icontextures/redstone"
+    },
+    "red_dye": {
+      "textures": "azalea_icons/icontextures/red_dye"
+    },
+    "ricotta": {
+      "textures": "azalea_icons/icontextures/ricotta"
+    },
+    "ring_01": {
+      "textures": "azalea_icons/icontextures/ring_01"
+    },
+    "ring_01a": {
+      "textures": "azalea_icons/icontextures/ring_01a"
+    },
+    "ring_01b": {
+      "textures": "azalea_icons/icontextures/ring_01b"
+    },
+    "ring_01c": {
+      "textures": "azalea_icons/icontextures/ring_01c"
+    },
+    "ring_01d": {
+      "textures": "azalea_icons/icontextures/ring_01d"
+    },
+    "ring_01e": {
+      "textures": "azalea_icons/icontextures/ring_01e"
+    },
+    "ring_01_2": {
+      "textures": "azalea_icons/icontextures/ring_01_2"
+    },
+    "ring_02": {
+      "textures": "azalea_icons/icontextures/ring_02"
+    },
+    "ring_02a": {
+      "textures": "azalea_icons/icontextures/ring_02a"
+    },
+    "ring_02b": {
+      "textures": "azalea_icons/icontextures/ring_02b"
+    },
+    "ring_02c": {
+      "textures": "azalea_icons/icontextures/ring_02c"
+    },
+    "ring_02d": {
+      "textures": "azalea_icons/icontextures/ring_02d"
+    },
+    "ring_02e": {
+      "textures": "azalea_icons/icontextures/ring_02e"
+    },
+    "ring_02_2": {
+      "textures": "azalea_icons/icontextures/ring_02_2"
+    },
+    "ring_03a": {
+      "textures": "azalea_icons/icontextures/ring_03a"
+    },
+    "ring_03b": {
+      "textures": "azalea_icons/icontextures/ring_03b"
+    },
+    "ring_03c": {
+      "textures": "azalea_icons/icontextures/ring_03c"
+    },
+    "ring_03d": {
+      "textures": "azalea_icons/icontextures/ring_03d"
+    },
+    "ring_03e": {
+      "textures": "azalea_icons/icontextures/ring_03e"
+    },
+    "roquefort": {
+      "textures": "azalea_icons/icontextures/roquefort"
+    },
+    "rotten_flesh": {
+      "textures": "azalea_icons/icontextures/rotten_flesh"
+    },
+    "saddle": {
+      "textures": "azalea_icons/icontextures/saddle"
+    },
+    "salmon": {
+      "textures": "azalea_icons/icontextures/salmon"
+    },
+    "sandwich": {
+      "textures": "azalea_icons/icontextures/sandwich"
+    },
+    "sandwich_2": {
+      "textures": "azalea_icons/icontextures/sandwich_2"
+    },
+    "scamorza": {
+      "textures": "azalea_icons/icontextures/scamorza"
+    },
+    "scroll_01a": {
+      "textures": "azalea_icons/icontextures/scroll_01a"
+    },
+    "scroll_01b": {
+      "textures": "azalea_icons/icontextures/scroll_01b"
+    },
+    "scroll_01c": {
+      "textures": "azalea_icons/icontextures/scroll_01c"
+    },
+    "scroll_01d": {
+      "textures": "azalea_icons/icontextures/scroll_01d"
+    },
+    "scroll_01e": {
+      "textures": "azalea_icons/icontextures/scroll_01e"
+    },
+    "scroll_01f": {
+      "textures": "azalea_icons/icontextures/scroll_01f"
+    },
+    "scroll_01g": {
+      "textures": "azalea_icons/icontextures/scroll_01g"
+    },
+    "scroll_01h": {
+      "textures": "azalea_icons/icontextures/scroll_01h"
+    },
+    "scroll_leather": {
+      "textures": "azalea_icons/icontextures/scroll_leather"
+    },
+    "scroll_leather_2": {
+      "textures": "azalea_icons/icontextures/scroll_leather_2"
+    },
+    "scute": {
+      "textures": "azalea_icons/icontextures/scute"
+    },
+    "shard_01a": {
+      "textures": "azalea_icons/icontextures/shard_01a"
+    },
+    "shard_01b": {
+      "textures": "azalea_icons/icontextures/shard_01b"
+    },
+    "shard_01c": {
+      "textures": "azalea_icons/icontextures/shard_01c"
+    },
+    "shard_01d": {
+      "textures": "azalea_icons/icontextures/shard_01d"
+    },
+    "shard_01e": {
+      "textures": "azalea_icons/icontextures/shard_01e"
+    },
+    "shard_01f": {
+      "textures": "azalea_icons/icontextures/shard_01f"
+    },
+    "shard_01g": {
+      "textures": "azalea_icons/icontextures/shard_01g"
+    },
+    "shard_01h": {
+      "textures": "azalea_icons/icontextures/shard_01h"
+    },
+    "shard_01i": {
+      "textures": "azalea_icons/icontextures/shard_01i"
+    },
+    "shard_01j": {
+      "textures": "azalea_icons/icontextures/shard_01j"
+    },
+    "shears": {
+      "textures": "azalea_icons/icontextures/shears"
+    },
+    "shield_01": {
+      "textures": "azalea_icons/icontextures/shield_01"
+    },
+    "shield_01a": {
+      "textures": "azalea_icons/icontextures/shield_01a"
+    },
+    "shield_01b": {
+      "textures": "azalea_icons/icontextures/shield_01b"
+    },
+    "shield_01c": {
+      "textures": "azalea_icons/icontextures/shield_01c"
+    },
+    "shield_01d": {
+      "textures": "azalea_icons/icontextures/shield_01d"
+    },
+    "shield_01e": {
+      "textures": "azalea_icons/icontextures/shield_01e"
+    },
+    "shield_01_2": {
+      "textures": "azalea_icons/icontextures/shield_01_2"
+    },
+    "shield_02": {
+      "textures": "azalea_icons/icontextures/shield_02"
+    },
+    "shield_02a": {
+      "textures": "azalea_icons/icontextures/shield_02a"
+    },
+    "shield_02b": {
+      "textures": "azalea_icons/icontextures/shield_02b"
+    },
+    "shield_02c": {
+      "textures": "azalea_icons/icontextures/shield_02c"
+    },
+    "shield_02d": {
+      "textures": "azalea_icons/icontextures/shield_02d"
+    },
+    "shield_02e": {
+      "textures": "azalea_icons/icontextures/shield_02e"
+    },
+    "shield_02_2": {
+      "textures": "azalea_icons/icontextures/shield_02_2"
+    },
+    "shield_03a": {
+      "textures": "azalea_icons/icontextures/shield_03a"
+    },
+    "shield_03b": {
+      "textures": "azalea_icons/icontextures/shield_03b"
+    },
+    "shield_03c": {
+      "textures": "azalea_icons/icontextures/shield_03c"
+    },
+    "shield_03d": {
+      "textures": "azalea_icons/icontextures/shield_03d"
+    },
+    "shield_03e": {
+      "textures": "azalea_icons/icontextures/shield_03e"
+    },
+    "shropshire_blue": {
+      "textures": "azalea_icons/icontextures/shropshire_blue"
+    },
+    "shulker_shell": {
+      "textures": "azalea_icons/icontextures/shulker_shell"
+    },
+    "skull_01a": {
+      "textures": "azalea_icons/icontextures/skull_01a"
+    },
+    "skull_01b": {
+      "textures": "azalea_icons/icontextures/skull_01b"
+    },
+    "slime_ball": {
+      "textures": "azalea_icons/icontextures/slime_ball"
+    },
+    "snowball": {
+      "textures": "azalea_icons/icontextures/snowball"
+    },
+    "spear_01": {
+      "textures": "azalea_icons/icontextures/spear_01"
+    },
+    "spear_01_2": {
+      "textures": "azalea_icons/icontextures/spear_01_2"
+    },
+    "spear_02": {
+      "textures": "azalea_icons/icontextures/spear_02"
+    },
+    "spear_02_2": {
+      "textures": "azalea_icons/icontextures/spear_02_2"
+    },
+    "spellbook_01a": {
+      "textures": "azalea_icons/icontextures/spellbook_01a"
+    },
+    "spellbook_01b": {
+      "textures": "azalea_icons/icontextures/spellbook_01b"
+    },
+    "spellbook_01c": {
+      "textures": "azalea_icons/icontextures/spellbook_01c"
+    },
+    "spellbook_01d": {
+      "textures": "azalea_icons/icontextures/spellbook_01d"
+    },
+    "spellbook_01e": {
+      "textures": "azalea_icons/icontextures/spellbook_01e"
+    },
+    "spellbook_02a": {
+      "textures": "azalea_icons/icontextures/spellbook_02a"
+    },
+    "spellbook_02b": {
+      "textures": "azalea_icons/icontextures/spellbook_02b"
+    },
+    "spellbook_02c": {
+      "textures": "azalea_icons/icontextures/spellbook_02c"
+    },
+    "spellbook_02d": {
+      "textures": "azalea_icons/icontextures/spellbook_02d"
+    },
+    "spellbook_02e": {
+      "textures": "azalea_icons/icontextures/spellbook_02e"
+    },
+    "spellbook_03a": {
+      "textures": "azalea_icons/icontextures/spellbook_03a"
+    },
+    "spellbook_03b": {
+      "textures": "azalea_icons/icontextures/spellbook_03b"
+    },
+    "spellbook_03c": {
+      "textures": "azalea_icons/icontextures/spellbook_03c"
+    },
+    "spellbook_03d": {
+      "textures": "azalea_icons/icontextures/spellbook_03d"
+    },
+    "spellbook_03e": {
+      "textures": "azalea_icons/icontextures/spellbook_03e"
+    },
+    "spider_eye": {
+      "textures": "azalea_icons/icontextures/spider_eye"
+    },
+    "splash_potion": {
+      "textures": "azalea_icons/icontextures/splash_potion"
+    },
+    "spyglass": {
+      "textures": "azalea_icons/icontextures/spyglass"
+    },
+    "staff_01a": {
+      "textures": "azalea_icons/icontextures/staff_01a"
+    },
+    "staff_01b": {
+      "textures": "azalea_icons/icontextures/staff_01b"
+    },
+    "staff_01c": {
+      "textures": "azalea_icons/icontextures/staff_01c"
+    },
+    "staff_01d": {
+      "textures": "azalea_icons/icontextures/staff_01d"
+    },
+    "staff_01e": {
+      "textures": "azalea_icons/icontextures/staff_01e"
+    },
+    "staff_02ab": {
+      "textures": "azalea_icons/icontextures/staff_02ab"
+    },
+    "staff_02b": {
+      "textures": "azalea_icons/icontextures/staff_02b"
+    },
+    "staff_02c": {
+      "textures": "azalea_icons/icontextures/staff_02c"
+    },
+    "staff_02d": {
+      "textures": "azalea_icons/icontextures/staff_02d"
+    },
+    "staff_02e": {
+      "textures": "azalea_icons/icontextures/staff_02e"
+    },
+    "staff_03a": {
+      "textures": "azalea_icons/icontextures/staff_03a"
+    },
+    "staff_03b": {
+      "textures": "azalea_icons/icontextures/staff_03b"
+    },
+    "staff_03c": {
+      "textures": "azalea_icons/icontextures/staff_03c"
+    },
+    "staff_03d": {
+      "textures": "azalea_icons/icontextures/staff_03d"
+    },
+    "staff_03e": {
+      "textures": "azalea_icons/icontextures/staff_03e"
+    },
+    "stick": {
+      "textures": "azalea_icons/icontextures/stick"
+    },
+    "stilton": {
+      "textures": "azalea_icons/icontextures/stilton"
+    },
+    "stone sword": {
+      "textures": "azalea_icons/icontextures/stone sword"
+    },
+    "stone sword_2": {
+      "textures": "azalea_icons/icontextures/stone sword_2"
+    },
+    "stone": {
+      "textures": "azalea_icons/icontextures/stone"
+    },
+    "stoneblock_01a": {
+      "textures": "azalea_icons/icontextures/stoneblock_01a"
+    },
+    "stone_2": {
+      "textures": "azalea_icons/icontextures/stone_2"
+    },
+    "stone_axe": {
+      "textures": "azalea_icons/icontextures/stone_axe"
+    },
+    "stone_hoe": {
+      "textures": "azalea_icons/icontextures/stone_hoe"
+    },
+    "stone_pickaxe": {
+      "textures": "azalea_icons/icontextures/stone_pickaxe"
+    },
+    "stone_shovel": {
+      "textures": "azalea_icons/icontextures/stone_shovel"
+    },
+    "stone_sword": {
+      "textures": "azalea_icons/icontextures/stone_sword"
+    },
+    "string": {
+      "textures": "azalea_icons/icontextures/string"
+    },
+    "sugar_cane": {
+      "textures": "azalea_icons/icontextures/sugar_cane"
+    },
+    "sweet_berries": {
+      "textures": "azalea_icons/icontextures/sweet_berries"
+    },
+    "swiss": {
+      "textures": "azalea_icons/icontextures/swiss"
+    },
+    "sword_01": {
+      "textures": "azalea_icons/icontextures/sword_01"
+    },
+    "sword_01a": {
+      "textures": "azalea_icons/icontextures/sword_01a"
+    },
+    "sword_01b": {
+      "textures": "azalea_icons/icontextures/sword_01b"
+    },
+    "sword_01c": {
+      "textures": "azalea_icons/icontextures/sword_01c"
+    },
+    "sword_01d": {
+      "textures": "azalea_icons/icontextures/sword_01d"
+    },
+    "sword_01e": {
+      "textures": "azalea_icons/icontextures/sword_01e"
+    },
+    "sword_01_2": {
+      "textures": "azalea_icons/icontextures/sword_01_2"
+    },
+    "sword_02": {
+      "textures": "azalea_icons/icontextures/sword_02"
+    },
+    "sword_02a": {
+      "textures": "azalea_icons/icontextures/sword_02a"
+    },
+    "sword_02b": {
+      "textures": "azalea_icons/icontextures/sword_02b"
+    },
+    "sword_02c": {
+      "textures": "azalea_icons/icontextures/sword_02c"
+    },
+    "sword_02d": {
+      "textures": "azalea_icons/icontextures/sword_02d"
+    },
+    "sword_02e": {
+      "textures": "azalea_icons/icontextures/sword_02e"
+    },
+    "sword_02_2": {
+      "textures": "azalea_icons/icontextures/sword_02_2"
+    },
+    "sword_03a": {
+      "textures": "azalea_icons/icontextures/sword_03a"
+    },
+    "sword_03b": {
+      "textures": "azalea_icons/icontextures/sword_03b"
+    },
+    "sword_03c": {
+      "textures": "azalea_icons/icontextures/sword_03c"
+    },
+    "sword_03d": {
+      "textures": "azalea_icons/icontextures/sword_03d"
+    },
+    "sword_03e": {
+      "textures": "azalea_icons/icontextures/sword_03e"
+    },
+    "tail": {
+      "textures": "azalea_icons/icontextures/tail"
+    },
+    "tail_2": {
+      "textures": "azalea_icons/icontextures/tail_2"
+    },
+    "taleggio": {
+      "textures": "azalea_icons/icontextures/taleggio"
+    },
+    "tomino": {
+      "textures": "azalea_icons/icontextures/tomino"
+    },
+    "tomme_de_savoie": {
+      "textures": "azalea_icons/icontextures/tomme_de_savoie"
+    },
+    "totem_of_undying": {
+      "textures": "azalea_icons/icontextures/totem_of_undying"
+    },
+    "trident": {
+      "textures": "azalea_icons/icontextures/trident"
+    },
+    "tropical_fish": {
+      "textures": "azalea_icons/icontextures/tropical_fish"
+    },
+    "turtle_egg": {
+      "textures": "azalea_icons/icontextures/turtle_egg"
+    },
+    "turtle_helmet": {
+      "textures": "azalea_icons/icontextures/turtle_helmet"
+    },
+    "ubriaco": {
+      "textures": "azalea_icons/icontextures/ubriaco"
+    },
+    "urda": {
+      "textures": "azalea_icons/icontextures/urda"
+    },
+    "vacherin": {
+      "textures": "azalea_icons/icontextures/vacherin"
+    },
+    "veggie": {
+      "textures": "azalea_icons/icontextures/veggie"
+    },
+    "veggie_2": {
+      "textures": "azalea_icons/icontextures/veggie_2"
+    },
+    "wand_01": {
+      "textures": "azalea_icons/icontextures/wand_01"
+    },
+    "wand_01_2": {
+      "textures": "azalea_icons/icontextures/wand_01_2"
+    },
+    "wand_02": {
+      "textures": "azalea_icons/icontextures/wand_02"
+    },
+    "wand_02_2": {
+      "textures": "azalea_icons/icontextures/wand_02_2"
+    },
+    "watering_can": {
+      "textures": "azalea_icons/icontextures/watering_can"
+    },
+    "watering_can_2": {
+      "textures": "azalea_icons/icontextures/watering_can_2"
+    },
+    "watermelon": {
+      "textures": "azalea_icons/icontextures/watermelon"
+    },
+    "watermelon_2": {
+      "textures": "azalea_icons/icontextures/watermelon_2"
+    },
+    "water_bucket": {
+      "textures": "azalea_icons/icontextures/water_bucket"
+    },
+    "wheat": {
+      "textures": "azalea_icons/icontextures/wheat"
+    },
+    "wheat_seeds": {
+      "textures": "azalea_icons/icontextures/wheat_seeds"
+    },
+    "wooden_axe": {
+      "textures": "azalea_icons/icontextures/wooden_axe"
+    },
+    "wooden_box": {
+      "textures": "azalea_icons/icontextures/wooden_box"
+    },
+    "wooden_box_2": {
+      "textures": "azalea_icons/icontextures/wooden_box_2"
+    },
+    "wooden_hoe": {
+      "textures": "azalea_icons/icontextures/wooden_hoe"
+    },
+    "wooden_pickaxe": {
+      "textures": "azalea_icons/icontextures/wooden_pickaxe"
+    },
+    "wooden_shield": {
+      "textures": "azalea_icons/icontextures/wooden_shield"
+    },
+    "wooden_shield_2": {
+      "textures": "azalea_icons/icontextures/wooden_shield_2"
+    },
+    "wooden_shovel": {
+      "textures": "azalea_icons/icontextures/wooden_shovel"
+    },
+    "wooden_sword": {
+      "textures": "azalea_icons/icontextures/wooden_sword"
+    },
+    "wood_01a": {
+      "textures": "azalea_icons/icontextures/wood_01a"
+    },
+    "writable_book": {
+      "textures": "azalea_icons/icontextures/writable_book"
+    },
+    "zobble_cant_be_pissed": {
+      "textures": "azalea_icons/icontextures/zobble_cant_be_pissed"
+    }
+  }
+}

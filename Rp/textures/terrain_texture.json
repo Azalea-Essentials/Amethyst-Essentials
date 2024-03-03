@@ -1,0 +1,8 @@
+{
+    "resource_pack_name": "Azalea",
+    "texture_data": {
+        "code_block": {
+            "textures": "textures/blocks/code_block"
+        }
+    }
+}
