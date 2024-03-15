@@ -4,10 +4,17 @@ import './importer';
 import config from 'uis/config';
 import { chatranksModule } from 'modules/chatranks';
 import { betterNametags } from 'modules/betterNametags';
+import { chatOverrideInteraction } from 'apis/interactions/ChatOverrideInteraction';
 system.runInterval(() => {
     betterNametags.call();
 }, 20);
 world.beforeEvents.chatSend.subscribe(msg => {
+    let overrideInteraction = chatOverrideInteraction.chatOverrideRun(msg.sender, msg);
+    if (overrideInteraction == true) {
+        msg.cancel = true;
+        return;
+    }
+    ;
     if (msg.message.startsWith('!')) {
         msg.cancel = true;
         commandManager.run(msg, "!");
