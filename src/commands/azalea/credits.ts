@@ -12,6 +12,7 @@ commandManager.register("credits", {
     callback(msg: ChatSendBeforeEvent, args: string[]) {
         let credits: string[] = [];
         credits.push(`§8----§7>§8-- §bDevelopers §r§8--§7<§8----`)
+        credits.push(`§3ligma §8- §7balls`)
         credits.push(`§3Trash9240 §8- §7Main Developer`)
         credits.push(`§3Otf5shotzz §8- §7Developer`)
         credits.push(`§3Asteroid3946 §8- §7UI Designer, Manager`)

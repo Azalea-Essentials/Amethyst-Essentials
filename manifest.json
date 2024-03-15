@@ -1,28 +1,23 @@
 {
     "format_version": 1,
     "header": {
-        "base_game_version": [
-            1,
-            0,
-            0
-        ],
         "min_engine_version": [
             1,
             0,
             0
         ],
-        "name": "§2Azalea Regrown",
-        "description": "§2Regrown and redone and §4loved <3",
+        "name": "§dAmethyst §r§fEssentials §7- §bv0.1",
+        "description": "§7Do §b/tag @s add admin §r§7to get admin permissions. §dhttps://amethyst-essentials.org/",
         "uuid": "375e449d-eb90-4f57-ad0a-3d44853d46b7",
         "version": [
             1,
             0,
-            0
+            1
         ]
     },
     "modules": [
         {
-            "description": "Azalea better",
+            "description": "Amethyst Essentials",
             "uuid": "a48e10ad-7072-4ced-846d-65c2d3ef0ed0",
             "type": "script",
             "language": "javascript",
@@ -30,7 +25,7 @@
             "version": [
                 1,
                 0,
-                0
+                1
             ]
         },
         {
@@ -40,18 +35,22 @@
             "version": [
                 1,
                 0,
-                0
+                1
             ]
         }
     ],
     "dependencies": [
         {
             "module_name": "@minecraft/server",
-            "version": "1.9.0-beta"
+            "version": "1.10.0-beta"
         },
         {
             "module_name": "@minecraft/server-ui",
             "version": "1.2.0-beta"
         }
-    ]
+    ],
+    "metadata": {
+        "authors": ["Asteroid3946", "Trash9240", "Otf5shotzz"],
+        "url": "https://amethyst-essentials.org/"
+    }
 }

@@ -1,5 +1,5 @@
-class ShopManager {
-    constructor() {
+// class ShopManager {
+//     constructor() {
         
-    }
-}
+//     }
+// }

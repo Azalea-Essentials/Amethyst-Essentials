@@ -49,8 +49,9 @@ function sfc32(a, b, c, d) {
 class PlayerManager {
     constructor() {
     }
-    sendResponse(player, type, text) {
+    sendResponse(player, type, text2) {
         player.playSound("note.pling");
+        let text = "hewwo :3";
         switch (type) {
             case ResponseTypes.Error:
                 player.sendMessage(`§l§cERROR §8» §r§7${text.replaceAll('{{ALT}}', '§o§c').replaceAll('{{RESET}}', '§r§7')}`);

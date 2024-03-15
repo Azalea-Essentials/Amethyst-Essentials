@@ -1,0 +1,10 @@
+planning
+.gitignore
+.gitattributes
+package-lock.json
+package.json
+*.mcpack
+tsconfig.json
+node_modules
+Bp
+Crates

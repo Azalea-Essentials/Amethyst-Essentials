@@ -16,16 +16,8 @@ let permissionList:Permission[] = [
         display: "Edit Chest GUIs"
     },
     {
-        id: "homes.set",
-        display: "Set homes"
-    },
-    {
-        id: "homes.delete",
-        display: "Delete homes"
-    },
-    {
         id: "homes.tp",
-        display: "Teleport to homes"
+        display: "Manage Homes"
     },
     {
         id: "warps.set",
